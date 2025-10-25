@@ -1,0 +1,209 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage[table]{xcolor}
+\usepackage{wrapfig}
+\usepackage{cite}
+\usepackage{ieeetrantools}
+\usepackage{float} 
+\usepackage[margin=3.5cm]{geometry}
+\hyphenation{Re-fe-ren-cias}
+%\usepackage{color}              % For creating coloured text and background
+\usepackage[hidelinks]{hyperref}            % For creating hyperlinks in cross references
+
+\columnsep 0.8 cm
+\pagestyle{empty}
+\newtheorem{teorema}{Teorema}
+\begin{document}
+\renewcommand{\tablename}{Tabla}
+\renewcommand{\refname}{Referencias bibliográficas.}
+\bstctlcite{IEEEexample:BSTcontrol} % cambia "and" por "y" en bibliografía
+\vspace{1cm}
+\title{Tema del título. Título descriptivo específico.}
+\vspace{1cm}
+
+\author{{\small Primer Autor}\begin{scriptsize}$^{1}$\end{scriptsize}, {\small Segundo Autor}\begin{scriptsize}$^{2}$\end{scriptsize}\\
+{\small Facultad Politécnica, Universidad Nacional del Este}\\
+{\small Ciudad del Este - Paraguay}\\
+
+{\small correo electrónico}\begin{scriptsize}$^{1}$\end{scriptsize}, {\small correo electrónico}\begin{scriptsize}$^{2}$\end{scriptsize}}
+\date{}
+\maketitle
+
+\vspace*{-1cm}
+%\begin{center} Fecha \end{center}
+
+\begin{center}
+\parbox{14 cm}{\abstract{El resumen debe contener el problema a investigar; el objetivo del trabajo; el método utilizado; los resultados más importantes; y la discusión acerca de las implicancias y aplicaciones de los resultados. Debe posibilitar al lector comprender de manera breve y expedita lo abordado en el trabajo. Solo debe abarcar información que figure en el cuerpo del artículo. Debe ser escrito en lenguaje preciso, claro y conciso, y cada una de las oraciones debe ser lo más informativa posible. Debe comenzar con los puntos más importantes y extenderse hasta cerca de 200 palabras. El tamaño del papel debe ser A4. La fuente recomendada es Times; aunque se acepta otra que sea fácilmente legible, con tamaño de 10 a 12 puntos. A continuación del resumen deben agregarse de tres a cinco términos o frases cortas descriptoras del tema tratado. Debe incluirse una traducción al inglés del resumen y de los descriptores.
+
+\vspace*{0.1 cm}
+Descriptores: \textbf{descriptor 1, descriptor 2, descriptor 3}
+
+\begin{center}
+\textbf{Abstract}
+\end{center}
+
+English translation of the above \textit{Resumen}
+
+\vspace*{0.1 cm}
+Keywords: \textbf{keyword 1, keyword 2, keyword 3}
+}}
+\end{center}
+\vspace{.5cm}
+\begin{multicols}{2}
+\thispagestyle{empty}
+\section{Introducción}
+
+El artículo comienza con una introducción que presenta el problema abordado y describe las estrategias de investigación.
+
+Se puede considerar responder algunas preguntas:
+\begin{itemize}
+\item ¿Por qué es importante el problema?
+\item ¿Cómo se relaciona el trabajo con investigaciones o trabajos previos en el área?
+\item Si otros aspectos de este estudio fueron abordados previamente, ¿en qué difiere o qué
+agrega el artículo?
+\item ¿Cuáles son las hipótesis primarias y secundarias del trabajo?
+\item ¿Cuál es el marco teórico referenccial del trabajo?
+\item ¿Cómo se relacionan las hipótesis y el diseño de la investigación?
+\item ¿Cuáles son las implicancias teóricas y prácticas del trabajo?
+\end{itemize}
+Una buena introducción responde las preguntas anteriormente listadas en unas pocas
+páginas, resumiendo argumentos relevantes y evidencias actuales, dando al lector una
+clara noción de qué se trabajó y por qué. La introducción puede escribirse una vez terminada la redacción de los resultados, de manera que se pueda consultar su contenido.
+
+Para la investigación básica, la importancia del trabajo puede ser la necesidad de resolver inconsistencias en resultados de investigaciones anteriores y/o extender el alcance de una formulación teórica. Para la investigación aplicada, la importancia puede recaer en la necesidad de resolver un problema específico. Teniendo en cuenta que la Facultad Politécnica de la UNE es una casa de estudios de carácter tecnológico, suele predominar la investigación aplicada al desarrollo tecnológico, sea como producción de un nuevo producto como innovación de producto preexistente. El producto puede ser tangible: desarrollo de prototipo; o intangible: diseño y/o desarrollo de algoritmo, software, entre otros.
+
+Cuando el trabajo aborda un tema controversial, todas las posturas en relación al problema deben ser presentadas y balanceadas. Los argumentos deben ser presentados desde una postura de neutralidad.
+
+\subsection{Objetivos.}
+Los objetivos deben escribirse de forma concreta, abarcan: un objetivo general que refleje la unicidad  del problema y de la solución pretendida, debe ser coherente con el título del trabajo; y varios objetivos específicos que desglosen el objetivo general y lo abarquen completamente, idealmente deben constituir un conjunto partición del objetivo general: los objetivos deben ser mutuamente excluyentes y colectivamente exhaustivos del objetivo general, es decir, debe abarcar todos los aspectos y todo el alcance del objetivo general.
+Los enunciados de los objetivos deben empezar con un verbo operativo en infinitivo.
+
+\subsection{Discusión de literatura relevante.}
+Discutir la literatura relevante relacionada al problema tratado en el artículo, de manera concisa. Se debe asumir que el lector tiene un conocimiento básico del problema y no requiere revisión exhaustiva. Una discusión de trabajos previos relevantes provee un resumen de los trabajos más recientes en el área. Debe incluirse citación y el crédito a trabajos consultados. En la descripción de la literatura relevante se debe informar si otros aspectos del trabajo fueron reportados previamente y cómo el uso actual de la evidencia difiere del uso anterior.
+
+Se debe demostrar continuidad lógica entre trabajos anteriores y el trabajo actual. El tema debe ser desarrollado con estructura clara para facilitar la comprensión general por la mayor cantidad posible de profesionales relacionados al área de estudio.
+
+\vspace{.3cm}
+\textbf{\textit{Referencias bibliográficas}}
+
+La presente plantilla se basa en el modelo IMRyD tomado de \cite{pscience}. Para los artículos de las llamadas ``ciencias exactas'', así como para los de divulgación tecnológica, el estándar de referenciación bibliográfica emplea el estilo IEEE Computer, i.e, una lista numerada al final del artículo y referenciada en el texto por números entre corchetes (e.g. ``[1]''). Véanse los ejemplos de citas al final de este documento \cite{ieee}.
+
+Deben incluirse referencias a materiales publicados y accesibles al público. Entre los reportes técnicos de Internet deben ser citados preferentemente aquellos que sean fácilmente accesibles y obtenibles por el lector \cite{Fuller, Vidmar}.
+
+Las referencias deben ser claras  y lo más completas que sea posible, nombrando siempre al autor o generador de la fuente del documento, como también la fecha (al menos aproximada) de su generación, refiriéndose a materiales ya publicados, ejemplos \cite{Fuller, Miller, Vidmar}. Otras fuentes pueden ser libros publicados, ejemplos \cite{Clarke, Young}; documentos electrónicos en la Web, ejemplo \cite{Talleen}; entre otros \cite{knuth}.
+
+La lista de referencias se titula: ``Referencias bibliográficas.'' seguido de las referencias propiamente dichas como los ejemplos al final de este documento. Las fuentes bibliográficas consultadas pero no citadas en el texto se deben escribir al final de las referencias citadas como lista titulada ``Bibliografía complementaria''.
+
+\subsection{Hipótesis}
+Las hipótesis son proposiciones tentativas acerca de las posibles relaciones entre dos o más variables.
+
+Siempre que se enuncien explícitamente las hipótesis, enunciarlas con su correspondencia con el diseño de la investigación. Una vez introducido el problema y la literatura relevante, se debe explicar el abordaje de la investigación para resolver el problema. En estudios empíricos, este trabajo generalmente implica enunciar las hipótesis o preguntas específicas y explicar cómo se derivan de la teoría o cómo se conectan lógicamente con argumentaciones o evidencias anteriores. Si existieran hipótesis primarias y secundarias, la priorización debe quedar clara. Es importante explicar cómo el diseño del estudio posibilita hacer las inferencias necesarias para examinar las hipótesis o proveer respuestas estimativas.
+
+\section{Método.}
+La sección del método describe en detalle cómo fue llevada a cabo la investigación, incluyendo definiciones operacionales de las variables involucradas. Distintos tipos de investigación se basan en distintas metodologías, es fundamental que la metodología utilizada sea apropiada para el problema planteado y para el tipo de datos que estén siendo procesados; una completa descripción del método utilizado posibilita al lector evaluar cuán apropiado fue el método empleado, la confiabilidad y la validez de los resultados. Por otro lado, posibilita a otros investigadores interesados replicar el estudio.
+
+Si el trabajo es una actualización de una investigación en curso o pasada y el método fue publicado en otro lugar, se puede referir al lector a esa fuente o simplemente proveer una breve sinopsis del método. Cuando se abarca un estudio empírico, esta sección debe ser muy rigurosa. Sin embargo, cuando se trabajan artículos teóricos, principalmente en ciencias sociales, puede aplicarse triangulación entre varios métodos.
+
+Cuando se trate de investigación de ciencias físicas y matemáticas o de investigación aplicada de ingeniería suele ser necesario el empleo de entornos enunciados y numerados tales como teoremas y ecuaciones, en estos casos es de fundamental importancia el empleo de  entornos \LaTeX \space \cite{lamport}, con capacidad de gestión automática de numeración y contadores que posibiliten su adecuada referenciación cruzada, como en los siguientes ejemplos (teorema \ref{te:Pitag} y Ec. \ref{ec:pitag}):
+
+\begin{teorema}[Teorema de Pitágoras]
+
+El cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos:
+\begin{equation}
+hip^2 = cat_1^2 + cat_2^2
+\label{ec:pitag}
+\end{equation}
+\label{te:Pitag} 
+\end{teorema} 
+
+Es conveniente dividir la sección del método en subsecciones, que deben incluir la información esencial para comprender y replicar la investigación. Detalles insuficientes pueden dejar al lector con preguntas sin respuesta; en cambio excesivos detalles lo pueden sobrecargar con información irrelevante.
+
+\subsection{Participantes}
+Si el artículo se refiere a una investigación sobre sujetos, una apropiada identificación de los sujetos participantes de la investigación es crítica particularmente para la generalización de resultados y para realizar comparaciones entre diversas réplicas de un estudio. Se deben incluir detalles descriptivos de la muestra, como su tamaño y precisión. Las conclusiones y las interpretaciones no deben ir más allá de lo garantizado por la muestra. Cuando se aplica estadística inferencial, se debe explicar el poder estadístico de las condiciones asociadas con la prueba de hipótesis.
+
+\subsection{Diseño de la investigación.}
+Debe especificarse el diseño de la investigación. Tratándose de investigación científica debe decirse si fue experimental, qué nivel de profundización posee: exploratorio, descriptivo, correlacional o explicativo. Tratándose de investigación tecnológica se debe describir el diseño del producto, servicio o innovación tecnológica de que se trate. 
+
+\subsection{Instrumentos.}
+En la sección del método debe incluirse información acerca de instrumentos utilizados y medidas tomadas, incluso si algunas de estas no fueren analizadas en el trabajo. Es fundamental mencionar las técnicas empleadas para recolectar información y la evidencia de su validez.
+
+\subsection{Procedimientos.}
+El procedimiento es al método lo que el paso es al procedimiento. Esto se refiere a la granularidad o grado de detalle de la descripción metodológica, significa que el método suele constar de varios procedimientos y cada procedimiento de varios pasos.
+
+En este apartado deben explicarse en detalle los algoritmos, las técnicas y los pasos procedimentales; las manipulaciones o intervenciones que se hubiesen realizado en el estudio. Deben incluirse los detalles de las intervenciones y manipulaciones a cada una de las variables o condiciones, incluyendo grupos control (si hubieren) y debe explicarse cómo y cuándo se realizaron las manipulaciones o intervenciones. El tiempo gramatical de la descripción típicamente es el pretérito simple.
+
+\section{Resultados.}
+En esta sección debe resumirse los datos de entrada, el análisis realizado sobre estos y la información consecuentemente obtenida como salida. La información debe ser reportada con el suficiente nivel de detalle para justificar las conclusiones. También en esta sección usualmente se emplea el tiempo gramatical pretérito simple. Deben mencionarse todos los resultados relevantes, inclusive aquellos que contradigan las expectativas iniciales. Deben asimismo incluirse los hallazgos no significativos aún cuando la teoría prediga hallazgos estadísticamente significativos. Se debe limitar la información intermedia entre los datos de entrada y de salida, a lo necesario para mantener continuidad lógica. El análisis de datos y los resultados son aspectos fundamentales de la investigación. Un reporte preciso, completo y sin sesgos del tratamiento analítico de datos (sean cuantitativos o cualitativos) es un componente fundamental de un artículo científico.
+
+Para que el lector pueda apreciar la magnitud e importancia de los hallazgos de un trabajo, es casi siempre necesario incluir alguna medida del tamaño del efecto. Cuando sea posible, debe proveerse un intervalo de confianza para cada tamaño del efecto reportado con el objetivo de indicar la precisión de la estimación de dicho tamaño. Debe asumirse que el lector tiene conocimiento profesional de los métodos estadísticos empleados. Los resultados clarifican por qué ha sido empleado el método descrito.
+
+\vspace{.3cm}
+\textbf{\textit{Utilidad de gráficos y tablas.}}
+
+En la sección de resultados es notablemente útil la inclusión de soportes visuales para mejorar la comprensión de los datos. Si a través del estudio se han generado diferentes presentaciones gráficas de los datos, para ser mostradas deben seleccionarse las más representativas. Se deben observar los lineamientos para la confección de cada tipo de presentación gráfica, por lo general basta incluir tres objetos gráficos.
+
+Las figuras y tablas deben insertarse en el punto apropiado dentro del texto. Cada figura y cada tabla deben ser citadas al menos una vez a través de su número, antes de su presentación. Cada tabla debe llevar un título enumerado como encabezado, y cada figura debe llevar un título enumerado a su pie. A modo de ilustración del código \LaTeX \space empleado para mostrar una figura, se presenta la Figura \ref{fig:huella}, siendo esta un ejemplo de referencia cruzada a la misma.
+
+Se recomienda que las figuras sean en blanco y negro para facilitar su impresión en papel con tinta negra.
+\end{multicols}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale = .5]{huella.jpg}
+\caption{Ejemplo de figura incluida}\label{fig:huella}
+\end{center}
+\end{figure}
+
+\begin{multicols}{2}
+Cada tabla debe contener datos representativos que sinteticen información significativa del trabajo, evitando mostrar datos intermedios que pudieran dificultar la interpretación del mismo. Como ilustración del código \LaTeX \space y su apariencia, empleados para presentar una tabla, se presenta la tabla \ref{tab:animales}.
+\end{multicols}
+
+\begin{table}[H]
+\begin{center}
+\caption{Aves del Paraguay.}\label{tab:animales}
+\begin{tabular}{||l|l|r||}
+\hline
+Denominación&Sexo&Cantidad\\
+\hline
+\multirow{2}{*}{Jeruti}&hembra&20\\
+&macho&18\\
+\hline
+\multirow{2}{*}{Mainumby}&hembra&5\\
+&macho&5\\
+\hline
+\multirow{2}{*}{Ypek\~u}&hembra&50\\
+&macho&50\\
+\hline
+\multicolumn{2}{||c|}{Total}&148\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{multicols}{2}
+\section{Discusión.}
+En esta sección se debe examinar, interpretar, calificar los resultados y derivar inferencias y conclusiones. Se deben enfatizar consecuencias teóricas y prácticas.
+
+Se debe comenzar con la enunciación de aquello que soporta o refuta las hipótesis originales, distinguiéndose entre hipótesis primarias y secundarias. Si las hipótesis fueron refutadas, deben proveerse explicaciones \textit{post hoc} de ello. Las similaridades y diferencias entre los resultados propios y los obtenidos por otros investigadores deben ser utilizadas para contextualizar, confirmar y clarificar las conclusiones.
+
+Se debe evitar reformular simplemente o repetir resultados mencionados anteriormente en la sección de resultados del trabajo. Si hubo algún tipo de intervención, debe discutirse si fue satisfactoria y los mecanismos por los cuales se planeó su realización. Deben también discutirse las barreras encontradas para realizar los procesos, así como la fidelidad con la cual la manipulación o intervención fue realizada, es decir, deben quedar claras las diferencias (si hubieren) entre la intervención planificada y la realizada.
+
+Deben enunciarse las limitaciones de la investigación y deben plantearse explicaciones alternativas a los resultados. Debe analizarse la generalizabilidad y la validez externa de los resultados. En caso de inclusión de encuestas se deben tener en cuenta las diferencias entre la población y la muestra seleccionada en el estudio (si hubieren).
+
+La sección Discusión debe cerrarse con sugerencias de temas para trabajos futuros dentro de la mísma línea de investigación u otras líneas con alguna relación con la misma.
+
+\bibliographystyle{IEEEtran-castellano}
+
+\bibliography{test}
+
+\end{multicols}
+
+\end{document}
