@@ -156,10 +156,6 @@ Estas herramientas posibilitaron una integración eficiente de los componentes d
 \section{Resultados}
 Los resultados experimentales muestran una precisión promedio del 85\,\% con tiempos de respuesta inferiores a 300\,ms por rostro. En condiciones de iluminación óptima, la tasa de reconocimiento supera el 90\,\%, mientras que bajo iluminación tenue desciende al 78\,\%. La Figura~\ref{fig:deteccion_aula} ilustra un ejemplo real de detección y verificación en el aula, con rostros correctamente localizados y etiquetas de identidad/probabilidad.
 
-\vspace{.3cm}
-\textbf{\textit{Utilidad de gráficos y tablas.}} Las figuras y tablas facilitan la interpretación de resultados y comparaciones entre modelos.
-\end{multicols}
-
 \begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth]{imagenes/1.jpg}
@@ -167,13 +163,14 @@ Los resultados experimentales muestran una precisión promedio del 85\,\% con ti
 \label{fig:deteccion_aula}
 \end{figure}
 
-\begin{multicols}{2}
+\vspace{.3cm}
+\textbf{\textit{Utilidad de gráficos y tablas.}} Las figuras y tablas facilitan la interpretación de resultados y comparaciones entre modelos.
 
 \begin{table}[H]
 \centering
 \caption{Precisión por escenario de prueba.}
 \label{tab:resultados}
-\begin{tabular}{|l|c|c|}
+\begin{tabular}{|p{1.9cm}|p{1.8cm}|p{1.8cm}|}
 \hline
 \textbf{Condición} & \textbf{Precisión (\%)} & \textbf{Tiempo (ms)}\\
 \hline
@@ -187,14 +184,61 @@ Iluminación tenue & 78.3 & 301\\
 \end{table}
 
 
+Se observa una segunda captura tomada en el mismo entorno, manteniendo las condiciones de iluminación artificial máxima y una posición similar de los participantes. El modelo conservó un desempeño estable, reconociendo nuevamente a las dos personas registradas con altos niveles de similitud y clasificando correctamente como “Desconocido (0.0\,\%)” a quienes no estaban en la base de datos. Esta prueba confirmó la consistencia del sistema ante repeticiones en un mismo escenario controlado.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{imagenes/2.jpg}
+\caption{Segunda prueba con iluminación uniforme, evidenciando estabilidad en las detecciones. [Figura Propia]}
+\label{fig:deteccion_aula_2}
+\end{figure}
+\vspace{.3cm}
+
+
+
+En la Figura~\ref{fig:prueba3} se presenta una prueba en la que los participantes modificaron levemente su postura y expresión facial respecto a las capturas anteriores. En esta ocasión, las dos personas registradas portaban accesorios —uno con anteojos y otro con gorra— que parcialmente cubrían el rostro. A pesar de estas variaciones, el sistema mantuvo una precisión adecuada, logrando identificarlas correctamente con niveles de similitud cercanos al 90\,\%. Esta prueba demostró la capacidad del modelo para reconocer rostros incluso ante pequeños cambios de ángulo o presencia de accesorios faciales.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{imagenes/4.jpg}
+\caption{Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento. [Figura Propia]}
+\label{fig:prueba3}
+\end{figure}
+
+En la Figura~\ref{fig:prueba4} se presenta una prueba en la que la cámara fue ubicada a una distancia superior a los cinco metros de los participantes. Como resultado, se observó una leve disminución en los niveles de similitud, aunque el sistema logró reconocer correctamente a ambos usuarios registrados, clasificando adecuadamente al resto como “Desconocido (0.0\,\%)”. Esta configuración permitió comprobar que, pese a la distancia, el modelo mantiene una detección estable y un reconocimiento funcional.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{imagenes/5.jpg}
+\caption{Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento. [Figura Propia]}
+\label{fig:prueba4}
+\end{figure}
+
+
+En la Figura~\ref{fig:prueba6} se presenta la prueba realizada bajo las condiciones de iluminación más bajas posibles dentro del aula. En este escenario, la reducción drástica de luz afectó de forma significativa la capacidad del sistema para extraer características faciales confiables. Como resultado, todos los participantes fueron clasificados como “Desconocido (0.0\,\%)”, evidenciando la dependencia del modelo respecto a una iluminación adecuada para lograr un reconocimiento efectivo.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{imagenes/7.jpg}
+\caption{Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento. [Figura Propia]}
+\label{fig:prueba6}
+\end{figure}
+
+
+
 % ---------------------------
 \section{Discusión}
-Los resultados obtenidos demuestran la factibilidad del uso del reconocimiento facial para la asistencia automática en aulas. El rendimiento fue satisfactorio en entornos controlados, aunque la iluminación y la posición del rostro afectan la precisión.
+El desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE permitió comprobar la viabilidad del uso de visión por computadora en entornos académicos. Los resultados experimentales evidencian que los modelos YOLOv8n-Face y ArcFace ofrecen un buen equilibrio entre precisión y velocidad, logrando un reconocimiento confiable de los estudiantes en tiempo real. Su implementación del prototipo demostró que la automatización del registro de asistencia contribuye a reducir errores humanos y optimizar el tiempo destinado a tareas administrativas.
 
-Las principales limitaciones incluyen la sensibilidad a variaciones lumínicas, la necesidad de buena calidad en el registro inicial y la dependencia de hardware con cámara de resolución suficiente. Futuras mejoras pueden incluir modelos más robustos, técnicas de alineación facial avanzada y módulos de detección de vida para evitar suplantaciones.
+A pesar del desempeño positivo, se identificaron limitaciones relacionadas con la iluminación, las expresiones faciales y la distancia de captura, factores que afectan la exactitud del reconocimiento. Además, la necesidad de contar con múltiples imágenes por usuario resalta la importancia de una base de datos amplia y variada para mejorar la robustez del modelo.
 
+En conjunto, el sistema validó la hipótesis de investigación y cumplió con todos los objetivos propuestos. Su desarrollo sienta las bases para futuras mejoras, como la integración de verificación por doble factor, el uso de aprendizaje incremental y la aplicación de medidas de protección de datos biométricos que permitan escalar el sistema a nivel institucional de forma segura y eficiente.
 \section{Conclusiones}
-El sistema desarrollado cumple con el objetivo de automatizar el registro de asistencia mediante reconocimiento facial, logrando resultados satisfactorios en precisión y velocidad. Su implementación en la FPUNE demuestra que estas tecnologías son viables en contextos educativos locales, contribuyendo a la digitalización y eficiencia administrativa.
+El sistema desarrollado alcanzó exitosamente el objetivo de automatizar el registro de asistencia en la Facultad Politécnica de la Universidad Nacional del Este mediante reconocimiento facial. Su funcionamiento en tiempo real y su precisión en la identificación de estudiantes demuestran la viabilidad técnica y práctica de aplicar tecnologías de visión por computadora en el ámbito educativo.
+
+El uso combinado de Python, Flask, React, PostgreSQL, junto con los modelos YOLOv8n-Face y ArcFace, permitió construir una herramienta moderna, escalable y confiable. Los resultados obtenidos reflejan una reducción significativa en los errores de registro y una mejora sustancial en la eficiencia del proceso de asistencia.
+
+En conclusión, el proyecto representa un avance relevante hacia la digitalización de los procesos académicos en la FPUNE. Constituye un aporte concreto a la innovación tecnológica institucional y una base sólida para futuras investigaciones enfocadas en la optimización, seguridad y expansión del sistema a mayor escala.
 
 \bibliographystyle{IEEEtran-castellano}
 \bibliography{test}
