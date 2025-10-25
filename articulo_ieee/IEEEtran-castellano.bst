@@ -129,7 +129,8 @@ FUNCTION {default.is.dash.repeated.names} { #1 }
 
 
 % The default name format control string.
-FUNCTION {default.name.format.string}{ "{f.~}{vv~}{ll}{, jj}" }
+FUNCTION {default.name.format.string}{ "{ff~}{vv~}{ll}{, jj}" }
+
 
 
 % The default LaTeX font command for the names.
@@ -137,7 +138,9 @@ FUNCTION {default.name.latex.cmd}{ "" }
 
 
 % The default URL prefix.
-FUNCTION {default.name.url.prefix}{ "[Online]. Available:" }
+FUNCTION {default.name.url.prefix}{ "[en l\\'inea]. Disponible:" }
+
+
 
 
 % Other controls that cannot be accessed via IEEEtranBSTCTL entry type.

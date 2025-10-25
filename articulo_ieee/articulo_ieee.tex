@@ -1,207 +1,202 @@
 \documentclass[10pt,a4paper]{article}
-\usepackage[latin1]{inputenc}
-\usepackage{amsmath}
-\usepackage{amsthm}
-\usepackage{amsfonts}
-\usepackage{amssymb}
-\usepackage{multirow}
-\usepackage{multicol}
+
+% --- Codificaci√≥n y espa√±ol ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[spanish]{babel}
-\usepackage{graphicx}
+\usepackage{caption} % para \captionof
+
+% --- Paquetes usados ---
+\usepackage{amsmath, amsthm, amsfonts, amssymb}
+\usepackage{multirow, multicol, graphicx, wrapfig, float}
 \usepackage[table]{xcolor}
-\usepackage{wrapfig}
 \usepackage{cite}
 \usepackage{ieeetrantools}
-\usepackage{float} 
 \usepackage[margin=3.5cm]{geometry}
-\hyphenation{Re-fe-ren-cias}
-%\usepackage{color}              % For creating coloured text and background
-\usepackage[hidelinks]{hyperref}            % For creating hyperlinks in cross references
+\usepackage[hidelinks]{hyperref}
 
 \columnsep 0.8 cm
 \pagestyle{empty}
 \newtheorem{teorema}{Teorema}
+
 \begin{document}
+
 \renewcommand{\tablename}{Tabla}
-\renewcommand{\refname}{Referencias bibliogr·ficas.}
-\bstctlcite{IEEEexample:BSTcontrol} % cambia "and" por "y" en bibliografÌa
-\vspace{1cm}
-\title{Tema del tÌtulo. TÌtulo descriptivo especÌfico.}
-\vspace{1cm}
+\renewcommand{\refname}{Referencias bibliogr√°ficas.}
+\bstctlcite{IEEEexample:BSTcontrol} % Control del estilo IEEE
 
-\author{{\small Primer Autor}\begin{scriptsize}$^{1}$\end{scriptsize}, {\small Segundo Autor}\begin{scriptsize}$^{2}$\end{scriptsize}\\
-{\small Facultad PolitÈcnica, Universidad Nacional del Este}\\
-{\small Ciudad del Este - Paraguay}\\
+\vspace{1cm}
+\title{Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE}
 
-{\small correo electrÛnico}\begin{scriptsize}$^{1}$\end{scriptsize}, {\small correo electrÛnico}\begin{scriptsize}$^{2}$\end{scriptsize}}
+\author{\small
+Aldo Carrizo Coronel\textsuperscript{1},\; Jorge Daniel S√°nchez Ram√≠rez\textsuperscript{2}\\
+\small Facultad Polit√©cnica, Universidad Nacional del Este\\
+\small Ciudad del Este, Paraguay\\
+\small \textsuperscript{1}aldo.carrizo@fpune.edu.py,\; \textsuperscript{2}jorge.sanchez@fpune.edu.py}
 \date{}
 \maketitle
 
 \vspace*{-1cm}
-%\begin{center} Fecha \end{center}
 
 \begin{center}
-\parbox{14 cm}{\abstract{El resumen debe contener el problema a investigar; el objetivo del trabajo; el mÈtodo utilizado; los resultados m·s importantes; y la discusiÛn acerca de las implicancias y aplicaciones de los resultados. Debe posibilitar al lector comprender de manera breve y expedita lo abordado en el trabajo. Solo debe abarcar informaciÛn que figure en el cuerpo del artÌculo. Debe ser escrito en lenguaje preciso, claro y conciso, y cada una de las oraciones debe ser lo m·s informativa posible. Debe comenzar con los puntos m·s importantes y extenderse hasta cerca de 200 palabras. El tamaÒo del papel debe ser A4. La fuente recomendada es Times; aunque se acepta otra que sea f·cilmente legible, con tamaÒo de 10 a 12 puntos. A continuaciÛn del resumen deben agregarse de tres a cinco tÈrminos o frases cortas descriptoras del tema tratado. Debe incluirse una traducciÛn al inglÈs del resumen y de los descriptores.
+\parbox{14 cm}{
+\begin{abstract}
+
+Este trabajo de investigaci√≥n tiene como objetivo desarrollar un sistema automatizado de registro de asistencia basado en reconocimiento facial para la Facultad Polit√©cnica de la Universidad Nacional del Este. Actualmente, el control de asistencia se realiza de forma manual, lo que genera errores y retrasa los procesos administrativos.
+
+La soluci√≥n propuesta emplea t√©cnicas de visi√≥n por computadora para detectar y reconocer rostros en tiempo real, automatizando el registro de asistencia. Se utilizaron herramientas como Python, OpenCV, TensorFlow y modelos como YOLOv8 y ArcFace. La metodolog√≠a incluy√≥ la recolecci√≥n de datos, el entrenamiento de modelos y la validaci√≥n en un entorno real.
+
+Los resultados demuestran una alta precisi√≥n y eficiencia del sistema, incluso bajo condiciones de iluminaci√≥n y √°ngulos variables. En conjunto, la soluci√≥n mejora la gesti√≥n acad√©mica, reduce errores humanos y optimiza el tiempo de los docentes durante el proceso de control de asistencia.
+
+
+
+\end{abstract}
 
 \vspace*{0.1 cm}
-Descriptores: \textbf{descriptor 1, descriptor 2, descriptor 3}
+\textbf{Descriptores:} \textbf{Reconocimiento facial, asistencia automatizada, visi√≥n por computadora}
 
 \begin{center}
 \textbf{Abstract}
 \end{center}
 
-English translation of the above \textit{Resumen}
+This research project aims to develop an automated attendance system based on facial recognition for the Polytechnic Faculty of the National University of the East (FPUNE). Currently, attendance is recorded manually, which often results in human errors and delays in administrative processes.
+
+The proposed solution applies computer vision techniques to detect and recognize faces in real time, automating the attendance process. Tools such as Python, OpenCV, TensorFlow, and models like YOLOv8 and ArcFace were used. The methodology included data collection, model training, and validation in a real environment.
+
+The results demonstrate high accuracy and efficiency, even under variable lighting and viewing conditions. Overall, the system improves academic management by reducing manual workload, minimizing errors, and optimizing teachers‚Äô time during attendance control.
 
 \vspace*{0.1 cm}
-Keywords: \textbf{keyword 1, keyword 2, keyword 3}
-}}
+\textbf{Keywords:} \textbf{Facial recognition, automated attendance, computer vision.}
+}
 \end{center}
+
 \vspace{.5cm}
+
 \begin{multicols}{2}
 \thispagestyle{empty}
-\section{IntroducciÛn}
 
-El artÌculo comienza con una introducciÛn que presenta el problema abordado y describe las estrategias de investigaciÛn.
+% ---------------------------
+\section{Introducci√≥n}
 
-Se puede considerar responder algunas preguntas:
-\begin{itemize}
-\item øPor quÈ es importante el problema?
-\item øCÛmo se relaciona el trabajo con investigaciones o trabajos previos en el ·rea?
-\item Si otros aspectos de este estudio fueron abordados previamente, øen quÈ difiere o quÈ
-agrega el artÌculo?
-\item øCu·les son las hipÛtesis primarias y secundarias del trabajo?
-\item øCu·l es el marco teÛrico referenccial del trabajo?
-\item øCÛmo se relacionan las hipÛtesis y el diseÒo de la investigaciÛn?
-\item øCu·les son las implicancias teÛricas y pr·cticas del trabajo?
-\end{itemize}
-Una buena introducciÛn responde las preguntas anteriormente listadas en unas pocas
-p·ginas, resumiendo argumentos relevantes y evidencias actuales, dando al lector una
-clara nociÛn de quÈ se trabajÛ y por quÈ. La introducciÛn puede escribirse una vez terminada la redacciÛn de los resultados, de manera que se pueda consultar su contenido.
+El registro de asistencia es una tarea clave en la gesti√≥n educativa y administrativa de instituciones acad√©micas como la 
+Facultad Polit√©cnica de la Universidad Nacional del Este (FPUNE). Sin embargo, los m√©todos tradicionales de control 
+manual mediante listas suelen generar errores humanos que afectan la precisi√≥n de los registros y la toma de decisiones 
+acad√©micas. Este Trabajo Final de Grado (TFG) tiene como objetivo desarrollar un sistema automatizado basado en reconocimiento facial para optimizar el proceso de registro de asistencia en la FPUNE. 
+Para ello, se emplear√°n algoritmos avanzados de biometr√≠a que analicen im√°genes en tiempo real, asegurando una identificaci√≥n precisa y eficiente. La metodolog√≠a contempla la selecci√≥n tecnol√≥gica, el procesamiento de datos, el entrenamiento de modelos y pruebas piloto en un entorno acad√©mico durante el a√±o 2025, buscando reducir errores y mejorar la gesti√≥n administrativa. De esta forma, el estudio pretende aportar una herramienta que brinde datos m√°s confiables y contribuya a una mayor eficiencia operativa, beneficiando a estudiantes, docentes y autoridades mediante la adopci√≥n de tecnolog√≠as innovadoras que fortalezcan la gesti√≥n acad√©mica.
 
-Para la investigaciÛn b·sica, la importancia del trabajo puede ser la necesidad de resolver inconsistencias en resultados de investigaciones anteriores y/o extender el alcance de una formulaciÛn teÛrica. Para la investigaciÛn aplicada, la importancia puede recaer en la necesidad de resolver un problema especÌfico. Teniendo en cuenta que la Facultad PolitÈcnica de la UNE es una casa de estudios de car·cter tecnolÛgico, suele predominar la investigaciÛn aplicada al desarrollo tecnolÛgico, sea como producciÛn de un nuevo producto como innovaciÛn de producto preexistente. El producto puede ser tangible: desarrollo de prototipo; o intangible: diseÒo y/o desarrollo de algoritmo, software, entre otros.
+\section{Objetivos}
 
-Cuando el trabajo aborda un tema controversial, todas las posturas en relaciÛn al problema deben ser presentadas y balanceadas. Los argumentos deben ser presentados desde una postura de neutralidad.
+\textit{Objetivo General} \\
+Implementar un prototipo de sistema de reconocimiento facial en un aula para el control de asistencia de estudiantes de la Facultad Polit√©cnica de la Universidad Nacional del Este.
 
-\subsection{Objetivos.}
-Los objetivos deben escribirse de forma concreta, abarcan: un objetivo general que refleje la unicidad  del problema y de la soluciÛn pretendida, debe ser coherente con el tÌtulo del trabajo; y varios objetivos especÌficos que desglosen el objetivo general y lo abarquen completamente, idealmente deben constituir un conjunto particiÛn del objetivo general: los objetivos deben ser mutuamente excluyentes y colectivamente exhaustivos del objetivo general, es decir, debe abarcar todos los aspectos y todo el alcance del objetivo general.
-Los enunciados de los objetivos deben empezar con un verbo operativo en infinitivo.
+\vspace{0.3cm}
 
-\subsection{DiscusiÛn de literatura relevante.}
-Discutir la literatura relevante relacionada al problema tratado en el artÌculo, de manera concisa. Se debe asumir que el lector tiene un conocimiento b·sico del problema y no requiere revisiÛn exhaustiva. Una discusiÛn de trabajos previos relevantes provee un resumen de los trabajos m·s recientes en el ·rea. Debe incluirse citaciÛn y el crÈdito a trabajos consultados. En la descripciÛn de la literatura relevante se debe informar si otros aspectos del trabajo fueron reportados previamente y cÛmo el uso actual de la evidencia difiere del uso anterior.
+\textit{Objetivos Espec√≠ficos}
+\begin{enumerate}
+    \item Seleccionar los algoritmos de reconocimiento facial m√°s adecuados para el sistema propuesto.
+    \item Seleccionar las herramientas tecnol√≥gicas necesarias para el desarrollo del sistema.
+    \item Identificar los requisitos para el desarrollo del sistema de registro de asistencia de la FPUNE.
+    \item Desarrollar el sistema de reconocimiento facial y el m√≥dulo de gesti√≥n de asistencias.
+    \item Realizar pruebas de implementaci√≥n y funcionamiento.
+    \item Evaluar los resultados obtenidos a fin de determinar la efectividad del sistema.
+\end{enumerate}
 
-Se debe demostrar continuidad lÛgica entre trabajos anteriores y el trabajo actual. El tema debe ser desarrollado con estructura clara para facilitar la comprensiÛn general por la mayor cantidad posible de profesionales relacionados al ·rea de estudio.
 
-\vspace{.3cm}
-\textbf{\textit{Referencias bibliogr·ficas}}
 
-La presente plantilla se basa en el modelo IMRyD tomado de \cite{pscience}. Para los artÌculos de las llamadas ``ciencias exactas'', asÌ como para los de divulgaciÛn tecnolÛgica, el est·ndar de referenciaciÛn bibliogr·fica emplea el estilo IEEE Computer, i.e, una lista numerada al final del artÌculo y referenciada en el texto por n˙meros entre corchetes (e.g. ``[1]''). VÈanse los ejemplos de citas al final de este documento \cite{ieee}.
+\subsection{Discusi√≥n de literatura relevante}
 
-Deben incluirse referencias a materiales publicados y accesibles al p˙blico. Entre los reportes tÈcnicos de Internet deben ser citados preferentemente aquellos que sean f·cilmente accesibles y obtenibles por el lector \cite{Fuller, Vidmar}.
+\textbf{Biometr√≠a.} Es el conjunto de m√©todos autom√°ticos que permiten la identificaci√≥n de individuos a partir de caracter√≠sticas f√≠sicas o comportamentales √∫nicas, tales como huellas dactilares, iris, voz o rasgos faciales. Su objetivo es autenticar o verificar la identidad de una persona con un alto grado de precisi√≥n.
 
-Las referencias deben ser claras  y lo m·s completas que sea posible, nombrando siempre al autor o generador de la fuente del documento, como tambiÈn la fecha (al menos aproximada) de su generaciÛn, refiriÈndose a materiales ya publicados, ejemplos \cite{Fuller, Miller, Vidmar}. Otras fuentes pueden ser libros publicados, ejemplos \cite{Clarke, Young}; documentos electrÛnicos en la Web, ejemplo \cite{Talleen}; entre otros \cite{knuth}.
+\textbf{Seguridad biom√©trica.} Es la aplicaci√≥n de la biometr√≠a orientada a la protecci√≥n de informaci√≥n y acceso a sistemas, mediante la verificaci√≥n de la identidad del usuario a trav√©s de sus caracter√≠sticas f√≠sicas o comportamentales. A diferencia de los m√©todos tradicionales basados en contrase√±as o tarjetas, la seguridad biom√©trica ofrece una autenticaci√≥n m√°s confiable y dif√≠cil de falsificar, garantizando la integridad y confidencialidad de los datos.
 
-La lista de referencias se titula: ``Referencias bibliogr·ficas.'' seguido de las referencias propiamente dichas como los ejemplos al final de este documento. Las fuentes bibliogr·ficas consultadas pero no citadas en el texto se deben escribir al final de las referencias citadas como lista titulada ``BibliografÌa complementaria''.
+\textbf{Reconocimiento facial.} Es una aplicaci√≥n de la biometr√≠a que utiliza t√©cnicas de visi√≥n por computadora y aprendizaje autom√°tico para detectar, analizar y comparar rostros humanos con el fin de identificar o verificar identidades. Se basa en la extracci√≥n de caracter√≠sticas distintivas del rostro y su comparaci√≥n con patrones previamente registrados.
 
-\subsection{HipÛtesis}
-Las hipÛtesis son proposiciones tentativas acerca de las posibles relaciones entre dos o m·s variables.
+\textbf{Inteligencia artificial.} Es el campo de la inform√°tica que busca desarrollar sistemas capaces de realizar tareas que requieren inteligencia humana, como el razonamiento, la percepci√≥n, el aprendizaje y la toma de decisiones. En el contexto del presente trabajo, la inteligencia artificial se aplica al an√°lisis visual mediante algoritmos que permiten a las computadoras aprender de los datos.
 
-Siempre que se enuncien explÌcitamente las hipÛtesis, enunciarlas con su correspondencia con el diseÒo de la investigaciÛn. Una vez introducido el problema y la literatura relevante, se debe explicar el abordaje de la investigaciÛn para resolver el problema. En estudios empÌricos, este trabajo generalmente implica enunciar las hipÛtesis o preguntas especÌficas y explicar cÛmo se derivan de la teorÌa o cÛmo se conectan lÛgicamente con argumentaciones o evidencias anteriores. Si existieran hipÛtesis primarias y secundarias, la priorizaciÛn debe quedar clara. Es importante explicar cÛmo el diseÒo del estudio posibilita hacer las inferencias necesarias para examinar las hipÛtesis o proveer respuestas estimativas.
+\textbf{Redes neuronales.} Son modelos computacionales inspirados en el funcionamiento del cerebro humano, conformados por capas de nodos interconectados que procesan informaci√≥n. En el reconocimiento facial, las redes neuronales convolucionales (CNN) destacan por su capacidad de aprender representaciones jer√°rquicas de los rasgos visuales a partir de grandes conjuntos de im√°genes.
 
-\section{MÈtodo.}
-La secciÛn del mÈtodo describe en detalle cÛmo fue llevada a cabo la investigaciÛn, incluyendo definiciones operacionales de las variables involucradas. Distintos tipos de investigaciÛn se basan en distintas metodologÌas, es fundamental que la metodologÌa utilizada sea apropiada para el problema planteado y para el tipo de datos que estÈn siendo procesados; una completa descripciÛn del mÈtodo utilizado posibilita al lector evaluar cu·n apropiado fue el mÈtodo empleado, la confiabilidad y la validez de los resultados. Por otro lado, posibilita a otros investigadores interesados replicar el estudio.
+\textbf{Registros acad√©micos.} Son sistemas o procedimientos utilizados por las instituciones educativas para documentar, almacenar y gestionar la informaci√≥n relacionada con la asistencia, calificaciones y rendimiento de los estudiantes. Su correcta automatizaci√≥n contribuye a mejorar la eficiencia administrativa y la fiabilidad de los datos.
 
-Si el trabajo es una actualizaciÛn de una investigaciÛn en curso o pasada y el mÈtodo fue publicado en otro lugar, se puede referir al lector a esa fuente o simplemente proveer una breve sinopsis del mÈtodo. Cuando se abarca un estudio empÌrico, esta secciÛn debe ser muy rigurosa. Sin embargo, cuando se trabajan artÌculos teÛricos, principalmente en ciencias sociales, puede aplicarse triangulaciÛn entre varios mÈtodos.
 
-Cuando se trate de investigaciÛn de ciencias fÌsicas y matem·ticas o de investigaciÛn aplicada de ingenierÌa suele ser necesario el empleo de entornos enunciados y numerados tales como teoremas y ecuaciones, en estos casos es de fundamental importancia el empleo de  entornos \LaTeX \space \cite{lamport}, con capacidad de gestiÛn autom·tica de numeraciÛn y contadores que posibiliten su adecuada referenciaciÛn cruzada, como en los siguientes ejemplos (teorema \ref{te:Pitag} y Ec. \ref{ec:pitag}):
+\subsection{Hip√≥tesis}
+La hip√≥tesis principal establece que la implementaci√≥n de un sistema de reconocimiento facial en el aula permitir√° registrar la asistencia de los estudiantes de manera automatizada, precisa y eficiente, reduciendo los errores del control manual y optimizando el tiempo destinado al proceso de registro en la Facultad Polit√©cnica de la Universidad Nacional del Este.
 
-\begin{teorema}[Teorema de Pit·goras]
+% ---------------------------
+\section{M√©todo}
 
-El cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos:
-\begin{equation}
-hip^2 = cat_1^2 + cat_2^2
-\label{ec:pitag}
-\end{equation}
-\label{te:Pitag} 
-\end{teorema} 
+El m√©todo aplicado se bas√≥ en un enfoque experimental y de desarrollo tecnol√≥gico, orientado a la creaci√≥n de un sistema funcional de reconocimiento facial para el registro automatizado de asistencia. El proceso metodol√≥gico comprendi√≥ las siguientes etapas principales:
 
-Es conveniente dividir la secciÛn del mÈtodo en subsecciones, que deben incluir la informaciÛn esencial para comprender y replicar la investigaciÛn. Detalles insuficientes pueden dejar al lector con preguntas sin respuesta; en cambio excesivos detalles lo pueden sobrecargar con informaciÛn irrelevante.
+\begin{enumerate}
+    \item \textbf{Recolecci√≥n de datos:} se obtuvieron im√°genes faciales de los participantes en condiciones controladas y variadas de iluminaci√≥n, pose y expresi√≥n, garantizando un conjunto de datos representativo para el entrenamiento de los modelos.
+    
+    \item \textbf{Detecci√≥n y recorte de rostros:} se utiliz√≥ el modelo \textit{YOLOv8n-Face} para la detecci√≥n de rostros en im√°genes, asegurando un procesamiento eficiente y en tiempo real.
+    
+    \item \textbf{Extracci√≥n de caracter√≠sticas y reconocimiento:} se emple√≥ la biblioteca \textit{DeepFace} con el modelo \textit{ArcFace} para la generaci√≥n de embeddings faciales, permitiendo identificar individuos mediante la comparaci√≥n de distancias entre vectores.
+    
+    \item \textbf{Dise√±o e implementaci√≥n del sistema:} el sistema fue desarrollado con una arquitectura cliente-servidor, utilizando \textit{Flask} para el backend, \textit{React} para el frontend y \textit{PostgreSQL} como base de datos para el almacenamiento de usuarios, cursos y registros de asistencia.
+    
+    \item \textbf{Entrenamiento y validaci√≥n:} se entrenaron y validaron los modelos con im√°genes recolectadas, evaluando la precisi√≥n y el rendimiento en distintas condiciones de prueba.
+    
+    \item \textbf{Pruebas en aula:} finalmente, se realizaron pruebas en un entorno real dentro del aula, midiendo la precisi√≥n, el tiempo de procesamiento y la fiabilidad del sistema durante el registro autom√°tico de asistencia.
+\end{enumerate}
 
-\subsection{Participantes}
-Si el artÌculo se refiere a una investigaciÛn sobre sujetos, una apropiada identificaciÛn de los sujetos participantes de la investigaciÛn es crÌtica particularmente para la generalizaciÛn de resultados y para realizar comparaciones entre diversas rÈplicas de un estudio. Se deben incluir detalles descriptivos de la muestra, como su tamaÒo y precisiÛn. Las conclusiones y las interpretaciones no deben ir m·s all· de lo garantizado por la muestra. Cuando se aplica estadÌstica inferencial, se debe explicar el poder estadÌstico de las condiciones asociadas con la prueba de hipÛtesis.
+Este enfoque permiti√≥ integrar t√©cnicas de visi√≥n por computadora y aprendizaje profundo con una arquitectura web moderna, garantizando una soluci√≥n funcional, escalable y adaptable al entorno acad√©mico.
 
-\subsection{DiseÒo de la investigaciÛn.}
-Debe especificarse el diseÒo de la investigaciÛn. Trat·ndose de investigaciÛn cientÌfica debe decirse si fue experimental, quÈ nivel de profundizaciÛn posee: exploratorio, descriptivo, correlacional o explicativo. Trat·ndose de investigaciÛn tecnolÛgica se debe describir el diseÒo del producto, servicio o innovaciÛn tecnolÛgica de que se trate. 
+\subsection{Instrumentos}
 
-\subsection{Instrumentos.}
-En la secciÛn del mÈtodo debe incluirse informaciÛn acerca de instrumentos utilizados y medidas tomadas, incluso si algunas de estas no fueren analizadas en el trabajo. Es fundamental mencionar las tÈcnicas empleadas para recolectar informaciÛn y la evidencia de su validez.
+Para el desarrollo del sistema se utilizaron diversas herramientas tecnol√≥gicas, seleccionadas por su utilidad, compatibilidad y eficiencia en proyectos de visi√≥n por computadora y desarrollo web.
 
-\subsection{Procedimientos.}
-El procedimiento es al mÈtodo lo que el paso es al procedimiento. Esto se refiere a la granularidad o grado de detalle de la descripciÛn metodolÛgica, significa que el mÈtodo suele constar de varios procedimientos y cada procedimiento de varios pasos.
+Se emple√≥ \textbf{Visual Studio Code} como entorno principal de programaci√≥n y \textbf{Git} junto con \textbf{GitHub Desktop} para el control de versiones. El sistema fue desarrollado en \textbf{Python}, utilizando el framework \textbf{Flask} para la creaci√≥n del servidor web. La interfaz de usuario se implement√≥ con \textbf{React}, garantizando una experiencia moderna e interactiva.
 
-En este apartado deben explicarse en detalle los algoritmos, las tÈcnicas y los pasos procedimentales; las manipulaciones o intervenciones que se hubiesen realizado en el estudio. Deben incluirse los detalles de las intervenciones y manipulaciones a cada una de las variables o condiciones, incluyendo grupos control (si hubieren) y debe explicarse cÛmo y cu·ndo se realizaron las manipulaciones o intervenciones. El tiempo gramatical de la descripciÛn tÌpicamente es el pretÈrito simple.
+En cuanto a los modelos de visi√≥n artificial, se utiliz√≥ \textbf{YOLOv8n-Face} para la detecci√≥n de rostros y \textbf{DeepFace} con el modelo \textbf{ArcFace} para el reconocimiento facial, permitiendo identificar individuos a partir de embeddings vectoriales. Los datos fueron almacenados y gestionados mediante \textbf{PostgreSQL}, empleando \textbf{SQL} como lenguaje de consulta.
 
-\section{Resultados.}
-En esta secciÛn debe resumirse los datos de entrada, el an·lisis realizado sobre estos y la informaciÛn consecuentemente obtenida como salida. La informaciÛn debe ser reportada con el suficiente nivel de detalle para justificar las conclusiones. TambiÈn en esta secciÛn usualmente se emplea el tiempo gramatical pretÈrito simple. Deben mencionarse todos los resultados relevantes, inclusive aquellos que contradigan las expectativas iniciales. Deben asimismo incluirse los hallazgos no significativos a˙n cuando la teorÌa prediga hallazgos estadÌsticamente significativos. Se debe limitar la informaciÛn intermedia entre los datos de entrada y de salida, a lo necesario para mantener continuidad lÛgica. El an·lisis de datos y los resultados son aspectos fundamentales de la investigaciÛn. Un reporte preciso, completo y sin sesgos del tratamiento analÌtico de datos (sean cuantitativos o cualitativos) es un componente fundamental de un artÌculo cientÌfico.
+Estas herramientas posibilitaron una integraci√≥n eficiente de los componentes del sistema, asegurando un desarrollo √°gil, escalable y con capacidad de procesamiento en tiempo real.
 
-Para que el lector pueda apreciar la magnitud e importancia de los hallazgos de un trabajo, es casi siempre necesario incluir alguna medida del tamaÒo del efecto. Cuando sea posible, debe proveerse un intervalo de confianza para cada tamaÒo del efecto reportado con el objetivo de indicar la precisiÛn de la estimaciÛn de dicho tamaÒo. Debe asumirse que el lector tiene conocimiento profesional de los mÈtodos estadÌsticos empleados. Los resultados clarifican por quÈ ha sido empleado el mÈtodo descrito.
+% ---------------------------
+\section{Resultados}
+Los resultados experimentales muestran una precisi√≥n promedio del 85\,\% con tiempos de respuesta inferiores a 300\,ms por rostro. En condiciones de iluminaci√≥n √≥ptima, la tasa de reconocimiento supera el 90\,\%, mientras que bajo iluminaci√≥n tenue desciende al 78\,\%. La Figura~\ref{fig:deteccion_aula} ilustra un ejemplo real de detecci√≥n y verificaci√≥n en el aula, con rostros correctamente localizados y etiquetas de identidad/probabilidad.
 
 \vspace{.3cm}
-\textbf{\textit{Utilidad de gr·ficos y tablas.}}
-
-En la secciÛn de resultados es notablemente ˙til la inclusiÛn de soportes visuales para mejorar la comprensiÛn de los datos. Si a travÈs del estudio se han generado diferentes presentaciones gr·ficas de los datos, para ser mostradas deben seleccionarse las m·s representativas. Se deben observar los lineamientos para la confecciÛn de cada tipo de presentaciÛn gr·fica, por lo general basta incluir tres objetos gr·ficos.
-
-Las figuras y tablas deben insertarse en el punto apropiado dentro del texto. Cada figura y cada tabla deben ser citadas al menos una vez a travÈs de su n˙mero, antes de su presentaciÛn. Cada tabla debe llevar un tÌtulo enumerado como encabezado, y cada figura debe llevar un tÌtulo enumerado a su pie. A modo de ilustraciÛn del cÛdigo \LaTeX \space empleado para mostrar una figura, se presenta la Figura \ref{fig:huella}, siendo esta un ejemplo de referencia cruzada a la misma.
-
-Se recomienda que las figuras sean en blanco y negro para facilitar su impresiÛn en papel con tinta negra.
+\textbf{\textit{Utilidad de gr√°ficos y tablas.}} Las figuras y tablas facilitan la interpretaci√≥n de resultados y comparaciones entre modelos.
 \end{multicols}
 
 \begin{figure}[H]
-\begin{center}
-\includegraphics[scale = .5]{huella.jpg}
-\caption{Ejemplo de figura incluida}\label{fig:huella}
-\end{center}
+\centering
+\includegraphics[width=\linewidth]{imagenes/1.jpg}
+\caption{Ejemplo de detecci√≥n facial durante la toma de asistencia en aula. Se observan rostros localizados (marcos verdes) y etiquetas con identidad o ‚ÄúDesconocido‚Äù junto al puntaje de confianza.}
+\label{fig:deteccion_aula}
 \end{figure}
 
 \begin{multicols}{2}
-Cada tabla debe contener datos representativos que sinteticen informaciÛn significativa del trabajo, evitando mostrar datos intermedios que pudieran dificultar la interpretaciÛn del mismo. Como ilustraciÛn del cÛdigo \LaTeX \space y su apariencia, empleados para presentar una tabla, se presenta la tabla \ref{tab:animales}.
-\end{multicols}
 
 \begin{table}[H]
-\begin{center}
-\caption{Aves del Paraguay.}\label{tab:animales}
-\begin{tabular}{||l|l|r||}
+\centering
+\caption{Precisi√≥n por escenario de prueba.}
+\label{tab:resultados}
+\begin{tabular}{|l|c|c|}
 \hline
-DenominaciÛn&Sexo&Cantidad\\
+\textbf{Condici√≥n} & \textbf{Precisi√≥n (\%)} & \textbf{Tiempo (ms)}\\
 \hline
-\multirow{2}{*}{Jeruti}&hembra&20\\
-&macho&18\\
+Luz natural & 90.2 & 275\\
+Luz artificial & 84.7 & 288\\
+Iluminaci√≥n tenue & 78.3 & 301\\
 \hline
-\multirow{2}{*}{Mainumby}&hembra&5\\
-&macho&5\\
-\hline
-\multirow{2}{*}{Ypek\~u}&hembra&50\\
-&macho&50\\
-\hline
-\multicolumn{2}{||c|}{Total}&148\\
+\textbf{Promedio} & \textbf{84.4} & \textbf{288}\\
 \hline
 \end{tabular}
-\end{center}
 \end{table}
 
-\begin{multicols}{2}
-\section{DiscusiÛn.}
-En esta secciÛn se debe examinar, interpretar, calificar los resultados y derivar inferencias y conclusiones. Se deben enfatizar consecuencias teÛricas y pr·cticas.
 
-Se debe comenzar con la enunciaciÛn de aquello que soporta o refuta las hipÛtesis originales, distinguiÈndose entre hipÛtesis primarias y secundarias. Si las hipÛtesis fueron refutadas, deben proveerse explicaciones \textit{post hoc} de ello. Las similaridades y diferencias entre los resultados propios y los obtenidos por otros investigadores deben ser utilizadas para contextualizar, confirmar y clarificar las conclusiones.
+% ---------------------------
+\section{Discusi√≥n}
+Los resultados obtenidos demuestran la factibilidad del uso del reconocimiento facial para la asistencia autom√°tica en aulas. El rendimiento fue satisfactorio en entornos controlados, aunque la iluminaci√≥n y la posici√≥n del rostro afectan la precisi√≥n.
 
-Se debe evitar reformular simplemente o repetir resultados mencionados anteriormente en la secciÛn de resultados del trabajo. Si hubo alg˙n tipo de intervenciÛn, debe discutirse si fue satisfactoria y los mecanismos por los cuales se planeÛ su realizaciÛn. Deben tambiÈn discutirse las barreras encontradas para realizar los procesos, asÌ como la fidelidad con la cual la manipulaciÛn o intervenciÛn fue realizada, es decir, deben quedar claras las diferencias (si hubieren) entre la intervenciÛn planificada y la realizada.
+Las principales limitaciones incluyen la sensibilidad a variaciones lum√≠nicas, la necesidad de buena calidad en el registro inicial y la dependencia de hardware con c√°mara de resoluci√≥n suficiente. Futuras mejoras pueden incluir modelos m√°s robustos, t√©cnicas de alineaci√≥n facial avanzada y m√≥dulos de detecci√≥n de vida para evitar suplantaciones.
 
-Deben enunciarse las limitaciones de la investigaciÛn y deben plantearse explicaciones alternativas a los resultados. Debe analizarse la generalizabilidad y la validez externa de los resultados. En caso de inclusiÛn de encuestas se deben tener en cuenta las diferencias entre la poblaciÛn y la muestra seleccionada en el estudio (si hubieren).
-
-La secciÛn DiscusiÛn debe cerrarse con sugerencias de temas para trabajos futuros dentro de la mÌsma lÌnea de investigaciÛn u otras lÌneas con alguna relaciÛn con la misma.
+\section{Conclusiones}
+El sistema desarrollado cumple con el objetivo de automatizar el registro de asistencia mediante reconocimiento facial, logrando resultados satisfactorios en precisi√≥n y velocidad. Su implementaci√≥n en la FPUNE demuestra que estas tecnolog√≠as son viables en contextos educativos locales, contribuyendo a la digitalizaci√≥n y eficiencia administrativa.
 
 \bibliographystyle{IEEEtran-castellano}
-
 \bibliography{test}
 
 \end{multicols}
