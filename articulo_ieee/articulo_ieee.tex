@@ -105,17 +105,17 @@ Implementar un prototipo de sistema de reconocimiento facial en un aula para el 
 
 \subsection{Discusión de literatura relevante}
 
-\textbf{Biometría.} Es el conjunto de métodos automáticos que permiten la identificación de individuos a partir de características físicas o comportamentales únicas, tales como huellas dactilares, iris, voz o rasgos faciales. Su objetivo es autenticar o verificar la identidad de una persona con un alto grado de precisión.
+\textbf{Biometría.} Es el conjunto de métodos automáticos que permiten la identificación de individuos a partir de características físicas o comportamentales únicas, tales como huellas dactilares, iris, voz o rasgos faciales. Su objetivo es autenticar o verificar la identidad de una persona con un alto grado de precisión\cite{thalesBiometria}.
 
-\textbf{Seguridad biométrica.} Es la aplicación de la biometría orientada a la protección de información y acceso a sistemas, mediante la verificación de la identidad del usuario a través de sus características físicas o comportamentales. A diferencia de los métodos tradicionales basados en contraseñas o tarjetas, la seguridad biométrica ofrece una autenticación más confiable y difícil de falsificar, garantizando la integridad y confidencialidad de los datos.
+\textbf{Seguridad biométrica.} Es la aplicación de la biometría orientada a la protección de información y acceso a sistemas, mediante la verificación de la identidad del usuario a través de sus características físicas o comportamentales. A diferencia de los métodos tradicionales basados en contraseñas o tarjetas, la seguridad biométrica ofrece una autenticación más confiable y difícil de falsificar, garantizando la integridad y confidencialidad de los datos\cite{beesafe_accesscontrol,thalesBiometria}.
 
-\textbf{Reconocimiento facial.} Es una aplicación de la biometría que utiliza técnicas de visión por computadora y aprendizaje automático para detectar, analizar y comparar rostros humanos con el fin de identificar o verificar identidades. Se basa en la extracción de características distintivas del rostro y su comparación con patrones previamente registrados.
+\textbf{Reconocimiento facial.} Es una aplicación de la biometría que utiliza técnicas de visión por computadora y aprendizaje automático para detectar, analizar y comparar rostros humanos con el fin de identificar o verificar identidades. Se basa en la extracción de características distintivas del rostro y su comparación con patrones previamente registrados\cite{reconocimientoKaspersky}.
 
-\textbf{Inteligencia artificial.} Es el campo de la informática que busca desarrollar sistemas capaces de realizar tareas que requieren inteligencia humana, como el razonamiento, la percepción, el aprendizaje y la toma de decisiones. En el contexto del presente trabajo, la inteligencia artificial se aplica al análisis visual mediante algoritmos que permiten a las computadoras aprender de los datos.
+\textbf{Inteligencia artificial.} Es el campo de la informática que busca desarrollar sistemas capaces de realizar tareas que requieren inteligencia humana, como el razonamiento, la percepción, el aprendizaje y la toma de decisiones. En el contexto del presente trabajo, la inteligencia artificial se aplica al análisis visual mediante algoritmos que permiten a las computadoras aprender de los datos\cite{aiIBM}.
 
-\textbf{Redes neuronales.} Son modelos computacionales inspirados en el funcionamiento del cerebro humano, conformados por capas de nodos interconectados que procesan información. En el reconocimiento facial, las redes neuronales convolucionales (CNN) destacan por su capacidad de aprender representaciones jerárquicas de los rasgos visuales a partir de grandes conjuntos de imágenes.
+\textbf{Redes neuronales.} Son modelos computacionales inspirados en el funcionamiento del cerebro humano, conformados por capas de nodos interconectados que procesan información. En el reconocimiento facial, las redes neuronales convolucionales (CNN) destacan por su capacidad de aprender representaciones jerárquicas de los rasgos visuales a partir de grandes conjuntos de imágenes\cite{perceptrons1969}.
 
-\textbf{Registros académicos.} Son sistemas o procedimientos utilizados por las instituciones educativas para documentar, almacenar y gestionar la información relacionada con la asistencia, calificaciones y rendimiento de los estudiantes. Su correcta automatización contribuye a mejorar la eficiencia administrativa y la fiabilidad de los datos.
+\textbf{Registros académicos.} Son sistemas o procedimientos utilizados por las instituciones educativas para documentar, almacenar y gestionar la información relacionada con la asistencia, calificaciones y rendimiento de los estudiantes. Su correcta automatización contribuye a mejorar la eficiencia administrativa y la fiabilidad de los datos\cite{registroAsistenciaUTA}.
 
 
 \subsection{Hipótesis}
@@ -223,6 +223,15 @@ En la Figura~\ref{fig:prueba6} se presenta la prueba realizada bajo las condicio
 \caption{Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento. [Figura Propia]}
 \label{fig:prueba6}
 \end{figure}
+
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=\linewidth]{imagenes/asistencia.jpg}
+\caption{Registro de asistencia almacenado en la base de datos del sistema. La interfaz muestra cómo cada detección facial confirmada genera automáticamente un registro con el identificador del participante, curso, fecha y estado correspondiente. Esto demuestra el correcto funcionamiento del módulo de registro automático de asistencias.[Figura Propia]}
+\label{fig:asistencia}
+\end{figure}
+
 
 
 
