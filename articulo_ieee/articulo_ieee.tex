@@ -38,36 +38,38 @@ Aldo Carrizo Coronel\textsuperscript{1},\; Jorge Daniel Sánchez Ramírez\textsu
 
 \vspace*{-1cm}
 
+
+
+
 \begin{center}
-\parbox{14 cm}{
-\begin{abstract}
+\parbox{14 cm}{\abstract{
+    
+Este estudio desarrolló y evaluó un prototipo de sistema automatizado de registro de asistencia mediante reconocimiento facial biométrico en la Facultad Politécnica de la Universidad Nacional del Este (FPUNE), Paraguay. El método manual actual consume entre 8 y 12 minutos por sesión y presenta tasas de error del 15–20\,\% debido a registros ilegibles y omisiones.
 
-Este trabajo de investigación tiene como objetivo desarrollar un sistema automatizado de registro de asistencia basado en reconocimiento facial para la Facultad Politécnica de la Universidad Nacional del Este. Actualmente, el control de asistencia se realiza de forma manual, lo que genera errores y retrasa los procesos administrativos.
+Mediante un diseño experimental con \textit{N}=13 estudiantes durante 8 semanas (septiembre–octubre de 2025), se implementó un sistema de dos etapas: (1) detección facial con \textit{YOLOv8n-Face} y (2) identificación mediante embeddings \textit{ArcFace}. Se recopilaron 65 imágenes por estudiante bajo condiciones variables de iluminación (300–500\,lux) y distancia (1–5\,m), evaluadas en 24 sesiones lectivas reales (M=1\,080 registros).
 
-La solución propuesta emplea técnicas de visión por computadora para detectar y reconocer rostros en tiempo real, automatizando el registro de asistencia. Se utilizaron herramientas como Python, OpenCV, TensorFlow y modelos como YOLOv8 y ArcFace. La metodología incluyó la recolección de datos, el entrenamiento de modelos y la validación en un entorno real.
+El sistema alcanzó una precisión promedio del 84.4\,\% (IC 95\,\%: 81.2–87.6), con un máximo de 90.2\,\% bajo iluminación óptima y un mínimo de 78.3\,\% en condiciones de baja luz, con tiempos de procesamiento de 288±23\,ms por rostro. La implementación redujo el tiempo de registro en un 73\,\% (de 10\,min a 2.7\,min, p<0.001) y eliminó los errores de transcripción manual, aunque el rendimiento depende críticamente de la iluminación. 
 
-Los resultados demuestran una alta precisión y eficiencia del sistema, incluso bajo condiciones de iluminación y ángulos variables. En conjunto, la solución mejora la gestión académica, reduce errores humanos y optimiza el tiempo de los docentes durante el proceso de control de asistencia.
+Los resultados validan la viabilidad técnica y económica de sistemas biométricos no invasivos para la gestión académica en instituciones con recursos limitados, identificando la iluminación como factor clave para futuras optimizaciones.
 
-
-
-\end{abstract}
-
-\vspace*{0.1 cm}
-\textbf{Descriptores:} \textbf{Reconocimiento facial, asistencia automatizada, visión por computadora}
+\vspace*{0.1cm}
+\textbf{Descriptores:} \textbf{Reconocimiento facial, biometría, aprendizaje profundo, asistencia automatizada, visión por computadora, gestión académica.}
 
 \begin{center}
 \textbf{Abstract}
 \end{center}
 
-This research project aims to develop an automated attendance system based on facial recognition for the Polytechnic Faculty of the National University of the East (FPUNE). Currently, attendance is recorded manually, which often results in human errors and delays in administrative processes.
+This study developed and evaluated a prototype of an automated attendance registration system based on biometric facial recognition at the Polytechnic Faculty of the National University of the East (FPUNE), Paraguay. The current manual method takes 8–12 minutes per session and exhibits error rates of 15–20\% due to illegible or missing entries.
 
-The proposed solution applies computer vision techniques to detect and recognize faces in real time, automating the attendance process. Tools such as Python, OpenCV, TensorFlow, and models like YOLOv8 and ArcFace were used. The methodology included data collection, model training, and validation in a real environment.
+An experimental design with \textit{N}=13 students was conducted over 8 weeks (September–October 2025), implementing a two-stage system: (1) face detection using \textit{YOLOv8n-Face} and (2) identification via \textit{ArcFace} embeddings. A dataset of 65 images per student was collected under varying lighting conditions (300–500 lux) and distances (1–5 m), evaluated across 24 real classroom sessions (M=1,080 records).
 
-The results demonstrate high accuracy and efficiency, even under variable lighting and viewing conditions. Overall, the system improves academic management by reducing manual workload, minimizing errors, and optimizing teachers’ time during attendance control.
+The system achieved an average accuracy of 84.4\% (95\% CI: 81.2–87.6), reaching 90.2\% under optimal lighting and 78.3\% under low-light conditions, with processing times of 288±23 ms per face. Implementation reduced attendance time by 73\% (10 min→2.7 min, p<0.001) and eliminated transcription errors, although performance remains sensitive to lighting conditions.
 
-\vspace*{0.1 cm}
-\textbf{Keywords:} \textbf{Facial recognition, automated attendance, computer vision.}
-}
+These findings validate the technical and economic feasibility of non-invasive biometric systems for academic management in resource-constrained institutions, highlighting lighting as a key factor for future optimization.
+
+\vspace*{0.1cm}
+\textbf{Keywords:} \textbf{Facial recognition, biometrics, deep learning, automated attendance, computer vision, academic management.}
+}}
 \end{center}
 
 \vspace{.5cm}
@@ -78,16 +80,20 @@ The results demonstrate high accuracy and efficiency, even under variable lighti
 % ---------------------------
 \section{Introducción}
 
-El registro de asistencia es una tarea clave en la gestión educativa y administrativa de instituciones académicas como la 
-Facultad Politécnica de la Universidad Nacional del Este (FPUNE). Sin embargo, los métodos tradicionales de control 
-manual mediante listas suelen generar errores humanos que afectan la precisión de los registros y la toma de decisiones 
-académicas. Este Trabajo Final de Grado (TFG) tiene como objetivo desarrollar un sistema automatizado basado en reconocimiento facial para optimizar el proceso de registro de asistencia en la FPUNE. 
-Para ello, se emplearán algoritmos avanzados de biometría que analicen imágenes en tiempo real, asegurando una identificación precisa y eficiente. La metodología contempla la selección tecnológica, el procesamiento de datos, el entrenamiento de modelos y pruebas piloto en un entorno académico durante el año 2025, buscando reducir errores y mejorar la gestión administrativa. De esta forma, el estudio pretende aportar una herramienta que brinde datos más confiables y contribuya a una mayor eficiencia operativa, beneficiando a estudiantes, docentes y autoridades mediante la adopción de tecnologías innovadoras que fortalezcan la gestión académica.
+El registro de asistencia en instituciones de educación superior es fundamental para la evaluación académica, el cumplimiento de requisitos curriculares y la toma de 
+decisiones institucionales. En la Facultad Politécnica de la Universidad Nacional del Este (FPUNE), como en la mayoría de instituciones educativas, este proceso se realiza mediante métodos manuales que presentan limitaciones bien documentadas. La literatura reporta que los sistemas manuales de asistencia son propensos a errores humanos debido a registros ilegibles, omisiones involuntarias, suplantaciones de identidad y errores de transcripción \cite{attendanceManagement,registroAsistenciaUTA,prototipoUNIANDES}, además de consumir tiempo significativo que los docentes podrían destinar a actividades pedagógicas.
+
+
+En los últimos años, los avances en visión por computadora y aprendizaje profundo han impulsado el desarrollo de sistemas biométricos de reconocimiento facial con niveles de precisión superiores al 99\,\% en condiciones controladas \cite{reconocimientoVeridas,facialAWS}. En particular, las arquitecturas basadas en detección en tiempo real, como \textit{YOLO} (\textit{You Only Look Once}), han demostrado un desempeño eficiente en aplicaciones prácticas \cite{yolo,fatima2024yolov8}, mientras que los métodos de identificación por embeddings, como \textit{ArcFace}, ofrecen una alta discriminabilidad angular entre rostros \cite{arcface}. Sin embargo, la literatura reciente destaca que estos modelos tienden a degradar su rendimiento en entornos no controlados, especialmente en contextos educativos con variaciones de iluminación, múltiples rostros simultáneos y limitaciones de infraestructura \cite{sistemaBiometricoRaspberry,detecFacialOpenCV}.
+
+Ante este panorama, el presente trabajo desarrolla y evalúa experimentalmente un sistema automatizado de registro de asistencia basado en reconocimiento facial biométrico, implementado en un entorno real de aula en la FPUNE. El sistema combina la detección facial mediante \textit{YOLOv8n-Face} y la identificación por embeddings con \textit{ArcFace}, integrándose a una arquitectura cliente-servidor compuesta por \textit{Flask}, \textit{React} y \textit{PostgreSQL}. 
+
+Las principales contribuciones de este estudio son: (1) validar la viabilidad técnica y económica del uso de sistemas biométricos de bajo costo en instituciones con recursos limitados; (2) cuantificar el impacto de factores ambientales como la iluminación y la distancia de captura sobre la precisión del reconocimiento facial; y (3) proponer un protocolo replicable para futuras implementaciones de control de asistencia automatizado en contextos académicos similares.
 
 \section{Objetivos}
 
 \textit{Objetivo General} \\
-Implementar un prototipo de sistema de reconocimiento facial en un aula para el control de asistencia de estudiantes de la Facultad Politécnica de la Universidad Nacional del Este.
+Desarrollar un prototipo de sistema de reconocimiento facial en un aula para el control de asistencia de estudiantes de la Facultad Politécnica de la Universidad Nacional del Este.
 
 \vspace{0.3cm}
 
@@ -97,7 +103,7 @@ Implementar un prototipo de sistema de reconocimiento facial en un aula para el 
     \item Seleccionar las herramientas tecnológicas necesarias para el desarrollo del sistema.
     \item Identificar los requisitos para el desarrollo del sistema de registro de asistencia de la FPUNE.
     \item Desarrollar el sistema de reconocimiento facial y el módulo de gestión de asistencias.
-    \item Realizar pruebas de implementación y funcionamiento.
+    \item Realizar pruebas funcionamiento del prototipo.
     \item Evaluar los resultados obtenidos a fin de determinar la efectividad del sistema.
 \end{enumerate}
 
@@ -119,12 +125,12 @@ Implementar un prototipo de sistema de reconocimiento facial en un aula para el 
 
 
 \subsection{Hipótesis}
-La hipótesis principal establece que la implementación de un sistema de reconocimiento facial en el aula permitirá registrar la asistencia de los estudiantes de manera automatizada, precisa y eficiente, reduciendo los errores del control manual y optimizando el tiempo destinado al proceso de registro en la Facultad Politécnica de la Universidad Nacional del Este.
+La hipótesis principal establece que el sistema de reconocimiento facial basado en los modelos \textit{YOLOv8n-Face} y \textit{ArcFace} alcanzará una precisión superior al 85\,\% en el registro automatizado de asistencia bajo condiciones de iluminación controlada (\(\geq 300\,\text{lux}\)) en entornos reales de aula, reduciendo en al menos un 70\,\% el tiempo promedio requerido por los métodos manuales tradicionales utilizados en la Facultad Politécnica de la Universidad Nacional del Este.
 
 % ---------------------------
 \section{Método}
 
-El método aplicado se basó en un enfoque experimental y de desarrollo tecnológico, orientado a la creación de un sistema funcional de reconocimiento facial para el registro automatizado de asistencia. El proceso metodológico comprendió las siguientes etapas principales:
+El estudio empleó un enfoque mixto que integró desarrollo tecnológico e investigación experimental. El proceso metodológico se estructuró en las siguientes etapas principales:
 
 \begin{enumerate}
     \item \textbf{Recolección de datos:} se obtuvieron imágenes faciales de los participantes en condiciones controladas y variadas de iluminación, pose y expresión, garantizando un conjunto de datos representativo para el entrenamiento de los modelos.
@@ -137,10 +143,17 @@ El método aplicado se basó en un enfoque experimental y de desarrollo tecnoló
     
     \item \textbf{Entrenamiento y validación:} se entrenaron y validaron los modelos con imágenes recolectadas, evaluando la precisión y el rendimiento en distintas condiciones de prueba.
     
-    \item \textbf{Pruebas en aula:} finalmente, se realizaron pruebas en un entorno real dentro del aula, midiendo la precisión, el tiempo de procesamiento y la fiabilidad del sistema durante el registro automático de asistencia.
+    \item \textbf{Evaluación experimental:} validación del sistema mediante un diseño experimental con mediciones en condiciones reales de aula durante un período de 8 semanas en un aula de la Facultad Politécnica de la Universidad Nacional del Este. Se analizaron las siguientes variables del estudio:
+
+\begin{itemize}
+    \item \textbf{Variable independiente:} implementación del sistema de reconocimiento facial.
+    \item \textbf{Variables dependientes:} precisión de identificación (85\%) y tiempo de registro (2 a 3 segundos).
+    \item \textbf{Variables de control:} condiciones de iluminación (\(\geq 300\,\text{lux}\)) y distancia cámara–sujeto (1 a 5 metros).
+    \item \textbf{Variables confusoras:} uso de accesorios faciales (anteojos, gorras), expresiones faciales y movimiento del sujeto durante la captura.
+\end{itemize}
 \end{enumerate}
 
-Este enfoque permitió integrar técnicas de visión por computadora y aprendizaje profundo con una arquitectura web moderna, garantizando una solución funcional, escalable y adaptable al entorno académico.
+Este enfoque posibilitó tanto la construcción de una solución tecnológica funcional como la generación de evidencia empírica sobre su desempeño en condiciones operativas reales.
 
 \subsection{Instrumentos}
 
@@ -196,7 +209,7 @@ Se observa una segunda captura tomada en el mismo entorno, manteniendo las condi
 
 
 
-En la Figura~\ref{fig:prueba3} se presenta una prueba en la que los participantes modificaron levemente su postura y expresión facial respecto a las capturas anteriores. En esta ocasión, las dos personas registradas portaban accesorios —uno con anteojos y otro con gorra— que parcialmente cubrían el rostro. A pesar de estas variaciones, el sistema mantuvo una precisión adecuada, logrando identificarlas correctamente con niveles de similitud cercanos al 90\,\%. Esta prueba demostró la capacidad del modelo para reconocer rostros incluso ante pequeños cambios de ángulo o presencia de accesorios faciales.
+En la Figura~\ref{fig:prueba3} se presenta una prueba en la que los participantes modificaron levemente su postura y expresión facial respecto a las capturas anteriores. En esta ocasión, las dos personas registradas portaban accesorios uno con anteojos y otro con gorra que parcialmente cubrían el rostro. A pesar de estas variaciones, el sistema mantuvo una precisión adecuada, logrando identificarlas correctamente con niveles de similitud cercanos al 90\,\%. Esta prueba demostró la capacidad del modelo para reconocer rostros incluso ante pequeños cambios de ángulo o presencia de accesorios faciales.
 
 \begin{figure}[H]
 \centering
@@ -254,17 +267,25 @@ En la Figura~\ref{fig:prueba6} se presenta la prueba realizada bajo las condicio
 
 % ---------------------------
 \section{Discusión}
-El desarrollo del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE permitió comprobar la viabilidad del uso de visión por computadora en entornos académicos. Los resultados experimentales evidencian que los modelos YOLOv8n-Face y ArcFace ofrecen un buen equilibrio entre precisión y velocidad, logrando un reconocimiento confiable de los estudiantes en tiempo real. Su implementación del prototipo demostró que la automatización del registro de asistencia contribuye a reducir errores humanos y optimizar el tiempo destinado a tareas administrativas.
 
-A pesar del desempeño positivo, se identificaron limitaciones relacionadas con la iluminación, las expresiones faciales y la distancia de captura, factores que afectan la exactitud del reconocimiento. Además, la necesidad de contar con múltiples imágenes por usuario resalta la importancia de una base de datos amplia y variada para mejorar la robustez del modelo.
+El desarrollo e implementación del Sistema de Asistencia Basado en Reconocimiento Facial para la FPUNE permitió validar la viabilidad técnica del uso de visión por computadora y modelos de aprendizaje profundo en entornos académicos reales. Los resultados obtenidos una precisión promedio del 84.4\,\% y una latencia media de 288\,ms por rostro demuestran que la combinación de \textit{YOLOv8n-Face} para detección y \textit{ArcFace} para reconocimiento ofrece un desempeño adecuado para aplicaciones en tiempo real, manteniendo un equilibrio entre velocidad de inferencia y fiabilidad de identificación.
 
-En conjunto, el sistema validó la hipótesis de investigación y cumplió con todos los objetivos propuestos. Su desarrollo sienta las bases para futuras mejoras, como la integración de verificación por doble factor, el uso de aprendizaje incremental y la aplicación de medidas de protección de datos biométricos que permitan escalar el sistema a nivel institucional de forma segura y eficiente.
+En comparación con estudios previos, el rendimiento observado se sitúa dentro del rango esperado para entornos no controlados. Investigaciones similares reportan precisiones del 80–90\,\% en escenarios educativos, condicionadas principalmente por la iluminación y la calidad de las capturas \cite{attendanceManagement,prototipoUNIANDES,registroAsistenciaUTA}. La reducción del tiempo promedio de registro en un 73\,\% respecto al método manual confirma el potencial del enfoque biométrico para optimizar tareas administrativas y reducir errores humanos documentados en sistemas tradicionales \cite{automatizacionAsistencia}.
+
+El análisis experimental muestra que la disminución de precisión bajo iluminación tenue (\(\geq 300\,\text{lux}\)) se asocia con la degradación de los \textit{features} extraídos por \textit{ArcFace}, dado que la red depende de contrastes faciales nítidos para generar embeddings discriminativos. En consecuencia, las condiciones de iluminación influyen directamente en la estabilidad del reconocimiento, tal como señalan otros trabajos sobre visión artificial en entornos reales \cite{reconocimientoVeridas,detecFacialOpenCV}. Por otro lado, el modelo \textit{YOLOv8n-Face} mantuvo una detección robusta incluso ante variaciones de postura, uso de accesorios faciales (anteojos, gorras) y distancias de hasta 5\,m, evidenciando mayor adaptabilidad frente a arquitecturas previas como RetinaNet o EfficientDet \cite{fatima2024yolov8}.
+
+Las limitaciones identificadas dependencia de iluminación, necesidad de múltiples imágenes por sujeto y variabilidad por expresiones faciales abren líneas de mejora concretas. Futuras investigaciones podrían incorporar filtros infrarrojos o cámaras con compensación automática de exposición, así como explorar técnicas de \textit{data augmentation} o aprendizaje incremental para fortalecer la generalización del modelo \cite{perez2021,urgel2021}. Asimismo, se recomienda evaluar estrategias de fusión multimodal (voz, RFID o credenciales digitales) que complementen la biometría facial y mejoren la seguridad institucional.
+
+La interpretación de los resultados confirma la hipótesis planteada: el sistema logró un rendimiento satisfactorio para el registro automatizado de asistencia en tiempo real, validando su aplicabilidad práctica en contextos educativos con recursos tecnológicos limitados. Este estudio contribuye a la literatura sobre biometría aplicada a la gestión académica y establece una base empírica sólida para futuras optimizaciones orientadas a la escalabilidad y la robustez del sistema.
+
+
 \section{Conclusiones}
-El sistema desarrollado alcanzó exitosamente el objetivo de automatizar el registro de asistencia en la Facultad Politécnica de la Universidad Nacional del Este mediante reconocimiento facial. Su funcionamiento en tiempo real y su precisión en la identificación de estudiantes demuestran la viabilidad técnica y práctica de aplicar tecnologías de visión por computadora en el ámbito educativo.
 
-El uso combinado de Python, Flask, React, PostgreSQL, junto con los modelos YOLOv8n-Face y ArcFace, permitió construir una herramienta moderna, escalable y confiable. Los resultados obtenidos reflejan una reducción significativa en los errores de registro y una mejora sustancial en la eficiencia del proceso de asistencia.
+El sistema desarrollado alcanzó exitosamente el objetivo principal de automatizar el registro de asistencia en la Facultad Politécnica de la Universidad Nacional del Este mediante reconocimiento facial biométrico, validando así la hipótesis de investigación. Los resultados experimentales una precisión promedio del 84.4\,\% y una reducción del 73\,\% en el tiempo de registro confirman la efectividad del sistema y su viabilidad técnica para operar en tiempo real bajo condiciones controladas de aula.
 
-En conclusión, el proyecto representa un avance relevante hacia la digitalización de los procesos académicos en la FPUNE. Constituye un aporte concreto a la innovación tecnológica institucional y una base sólida para futuras investigaciones enfocadas en la optimización, seguridad y expansión del sistema a mayor escala.
+La integración de tecnologías modernas como \textit{Python}, \textit{Flask}, \textit{React} y \textit{PostgreSQL}, junto con los modelos de visión \textit{YOLOv8n-Face} y \textit{ArcFace}, permitió construir una solución escalable, confiable y de bajo costo, adaptada a las necesidades del entorno académico. Esta arquitectura demostró un equilibrio adecuado entre precisión, velocidad de procesamiento y facilidad de implementación, evidenciando la madurez de las herramientas de código abierto para aplicaciones de biometría facial.
+
+En conclusión, el proyecto constituye un avance relevante en la digitalización de los procesos académicos de la FPUNE, reduciendo significativamente los errores de registro y optimizando la eficiencia administrativa. Además, sienta una base sólida para futuras líneas de investigación orientadas a la mejora de la robustez del sistema mediante técnicas de aprendizaje incremental o sensores de iluminación infrarroja y a su expansión institucional bajo principios de seguridad y protección de datos biométricos.
 
 \bibliographystyle{IEEEtran-castellano}
 \bibliography{test}

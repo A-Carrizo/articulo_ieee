@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.21)  3 NOV 2025 05:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  3 NOV 2025 14:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/programacion/articulo_ieee/articulo_ieee/articulo_ieee.tex
-(c:/programacion/articulo_ieee/articulo_ieee/articulo_ieee.tex
+**/Users/danisanchez/Documents/portafolio/articulo_ieee_ALDO/articulo_ieee/articulo_ieee.tex
+(/Users/danisanchez/Documents/portafolio/articulo_ieee_ALDO/articulo_ieee/articulo_ieee.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
-(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+L3 programming layer <2025-08-13>
+(/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+(/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -23,14 +23,14 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
-) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
-) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/10/01 v25.13 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count283
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
@@ -40,22 +40,25 @@ LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) o
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
 \U@D=\dimen149
-\l@unhyphenated=\language79
- (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\l@unhyphenated=\language3
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count284
-
-*************************************
-* Local config file bblopts.cfg used
-*
-(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
- (C:\Program Files\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 12.
 )
+
+Package babel Warning: No hyphenation patterns were preloaded for
+(babel)                the language 'Spanish' into the format.
+(babel)                Please, configure your TeX system to add them and
+(babel)                rebuild the format. Now I will use the patterns
+(babel)                preloaded for \language=0 instead on input line 51.
+
+Package babel Info: Hyphen rules for 'spanish' set to \l@english
+(babel)             (\language0). Reported on input line 52.
 \es@quottoks=\toks19
 \es@quotdepth=\count285
 Package babel Info: Making " an active character on input line 570.
@@ -65,11 +68,11 @@ Package babel Info: Making > an active character on input line 722.
 ))
 LaTeX Encoding Info:    Redeclaring text command \guillemotleft (encoding OT1) on input line 7.
 LaTeX Encoding Info:    Redeclaring text command \guillemotright (encoding OT1) on input line 7.
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
@@ -85,21 +88,21 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count286
 \c@continuedfloat=\count287
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+(/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
 \ex@=\dimen158
-)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen159
-) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count288
@@ -149,7 +152,7 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/amscls\amsthm.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks26
 \thm@bodyfont=\toks27
@@ -160,22 +163,22 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@postskip=\skip55
 \thm@headsep=\skip56
 \dth@everypar=\toks31
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-) (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip57
 \multirow@cntb=\count300
 \multirow@dima=\skip58
 \bigstrutjot=\dimen167
-) (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \c@tracingmulticols=\count301
 \mult@box=\box55
@@ -245,42 +248,42 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \colbreak@box=\box100
 \mc@col@check@num=\count310
 \g__mc_curr_col_int=\count311
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen177
 \Gin@req@width=\dimen178
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen179
 \WF@size=\dimen180
 \c@WF@wrappedlines=\count312
 \WF@box=\box101
 \WF@everypar=\toks32
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count313
 \float@exts=\toks33
 \float@box=\box102
 \@float@everytoks=\toks34
 \@floatcapt=\box103
-) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -290,9 +293,9 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
- (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen181
 \ar@mcellbox=\box104
@@ -305,11 +308,11 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \everycr=\toks36
 \minrowclearance=\skip63
 \rownum=\count314
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/cite\cite.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
-) (ieeetrantools.sty
+) (./ieeetrantools.sty
 
 LaTeX Warning: You have requested package `ieeetrantools',
                but the package provides `IEEEtrantools'.
@@ -342,11 +345,11 @@ Package: IEEEtrantools 2015/08/26 V1.5 by Michael Shell
 \@IEEEeqncolcnt=\count320
 \@IEEEsubeqnnumrollback=\count321
 \IEEEPARstartletwidth=\dimen198
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count322
@@ -361,54 +364,54 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen261
 \Gm@layoutvoffset=\dimen262
 \Gm@dimlist=\toks38
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+)) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count325
-) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count326
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
 \@linkdim=\dimen263
 \Hy@linkcounter=\count327
 \Hy@pagecounter=\count328
- (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count329
- (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -421,15 +424,15 @@ Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count330
- (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen264
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
 \Fld@menulength=\count331
@@ -447,13 +450,13 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 \c@Hfootnote=\count334
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count335
 \c@bookmark@seq@number=\count336
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (C:\Users\aldoc\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
@@ -461,10 +464,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip65
 )
 \c@teorema=\count337
- (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count338
-) (articulo_ieee.aux
+) (./articulo_ieee.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
@@ -497,24 +500,11 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen267
-\scratchbox=\box106
-\nofMPsegments=\count340
-\nofMParguments=\count341
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen268
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
-\everyMPtoPDFconversion=\toks40
-) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -551,28 +541,39 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 22.
-(articulo_ieee.out) (articulo_ieee.out)
+(./articulo_ieee.out) (./articulo_ieee.out)
 \@outlinefile=\write3
 \openout3 = `articulo_ieee.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
- (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-
+Underfull \hbox (badness 1264) in paragraph at lines 72--72
+\T1/cmr/m/n/9 ber^^UOctober 2025), im-ple-ment-ing a two-stage sys-tem: (1) face de-tec-tion us-ing
+ []
 
 
 
 [1
 
-{C:/Users/aldoc/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-[]\T1/cmr/bx/n/10 Redes neu-ro-na-les. \T1/cmr/m/n/10 Son mo-de-los
+{/Users/danisanchez/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 5316) in paragraph at lines 102--103
+[]\T1/cmr/m/n/10 Seleccionar los al-go-rit-mos de re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+[]\T1/cmr/m/n/10 Desarrollar el sis-tema de re-
+ []
+
+
+Underfull \hbox (badness 7064) in paragraph at lines 112--112
+[]\T1/cmr/bx/n/12 Discusión de lit-er-atu-ra
  []
 
 
@@ -582,83 +583,104 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
 
 [2]
+Underfull \hbox (badness 6927) in paragraph at lines 133--134
+\T1/cmr/m/n/10 in-ves-ti-gación ex-per-i-men-tal. El pro-ce-so
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[]\T1/cmr/bx/n/10 Evaluación ex-per-i-men-tal: \T1/cmr/m/n/10 val-i-
+ []
+
+
 
 
 
 
 
 [3]
-<imagenes/1.jpg, id=87, 1284.8pt x 729.72626pt>
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[]\T1/cmr/bx/n/10 Variables con-fu-so-ras: \T1/cmr/m/n/10 uso
+ []
+
+<imagenes/1.jpg, id=110, 1284.8pt x 729.72626pt>
 File: imagenes/1.jpg Graphic file (type jpg)
 <use imagenes/1.jpg>
-Package pdftex.def Info: imagenes/1.jpg  used on input line 161.
+Package pdftex.def Info: imagenes/1.jpg  used on input line 174.
 (pdftex.def)             Requested size: 187.78815pt x 106.64827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--175
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
 []|\T1/cmr/bx/n/10 Precisión
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 []|\T1/cmr/bx/n/10 Tiempo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 191--191
 []|\T1/cmr/m/n/10 Luz ar-ti-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--179
+Underfull \hbox (badness 10000) in paragraph at lines 192--192
 []|\T1/cmr/m/n/10 Iluminación
  []
 
 
-Overfull \hbox (6.30197pt too wide) in paragraph at lines 173--184
+Overfull \hbox (6.30197pt too wide) in paragraph at lines 186--197
  [][] 
  []
 
-<imagenes/2.jpg, id=88, 1606.0pt x 951.555pt>
+
+
+
+
+
+
+[4 <./imagenes/1.jpg>]
+<imagenes/2.jpg, id=118, 1606.0pt x 951.555pt>
 File: imagenes/2.jpg Graphic file (type jpg)
 <use imagenes/2.jpg>
-Package pdftex.def Info: imagenes/2.jpg  used on input line 191.
+Package pdftex.def Info: imagenes/2.jpg  used on input line 204.
 (pdftex.def)             Requested size: 187.78815pt x 111.26324pt.
-<imagenes/4.jpg, id=90, 1185.67969pt x 707.64375pt>
+<imagenes/4.jpg, id=120, 1185.67969pt x 707.64375pt>
 File: imagenes/4.jpg Graphic file (type jpg)
 <use imagenes/4.jpg>
-Package pdftex.def Info: imagenes/4.jpg  used on input line 203.
+Package pdftex.def Info: imagenes/4.jpg  used on input line 216.
 (pdftex.def)             Requested size: 187.78815pt x 112.06995pt.
-
-
-
-
-
-
-[4 <./imagenes/1.jpg> <./imagenes/2.jpg> <./imagenes/4.jpg>]
-<imagenes/5.jpg, id=102, 1606.0pt x 889.3225pt>
+<imagenes/5.jpg, id=122, 1606.0pt x 889.3225pt>
 File: imagenes/5.jpg Graphic file (type jpg)
 <use imagenes/5.jpg>
-Package pdftex.def Info: imagenes/5.jpg  used on input line 212.
+Package pdftex.def Info: imagenes/5.jpg  used on input line 225.
 (pdftex.def)             Requested size: 187.78815pt x 103.98653pt.
-<imagenes/7.jpg, id=104, 1606.0pt x 990.70125pt>
+<imagenes/7.jpg, id=124, 1606.0pt x 990.70125pt>
 File: imagenes/7.jpg Graphic file (type jpg)
 <use imagenes/7.jpg>
-Package pdftex.def Info: imagenes/7.jpg  used on input line 222.
+Package pdftex.def Info: imagenes/7.jpg  used on input line 235.
 (pdftex.def)             Requested size: 187.78815pt x 115.84053pt.
-<imagenes/asistencia.jpg, id=105, 400.49625pt x 319.1925pt>
+<imagenes/asistencia.jpg, id=125, 400.49625pt x 319.1925pt>
 File: imagenes/asistencia.jpg Graphic file (type jpg)
 <use imagenes/asistencia.jpg>
-Package pdftex.def Info: imagenes/asistencia.jpg  used on input line 230.
+Package pdftex.def Info: imagenes/asistencia.jpg  used on input line 243.
 (pdftex.def)             Requested size: 187.78815pt x 149.66495pt.
-<imagenes/dashboard_1.png, id=106, 1154.51324pt x 683.55376pt>
+
+
+
+
+
+
+[5 <./imagenes/2.jpg> <./imagenes/4.jpg> <./imagenes/5.jpg>]
+<imagenes/dashboard_1.png, id=134, 1154.51324pt x 683.55376pt>
 File: imagenes/dashboard_1.png Graphic file (type png)
 <use imagenes/dashboard_1.png>
-Package pdftex.def Info: imagenes/dashboard_1.png  used on input line 240.
+Package pdftex.def Info: imagenes/dashboard_1.png  used on input line 253.
 (pdftex.def)             Requested size: 187.78815pt x 111.17525pt.
-<imagenes/dashboard_2.png, id=108, 1153.30875pt x 687.16725pt>
+<imagenes/dashboard_2.png, id=136, 1153.30875pt x 687.16725pt>
 File: imagenes/dashboard_2.png Graphic file (type png)
 <use imagenes/dashboard_2.png>
-Package pdftex.def Info: imagenes/dashboard_2.png  used on input line 247.
+Package pdftex.def Info: imagenes/dashboard_2.png  used on input line 260.
 (pdftex.def)             Requested size: 187.78815pt x 111.88878pt.
 
 
@@ -666,49 +688,140 @@ Package pdftex.def Info: imagenes/dashboard_2.png  used on input line 247.
 
 
 
-[5 <./imagenes/5.jpg> <./imagenes/7.jpg> <./imagenes/asistencia.jpg> <./imagenes/dashboard_1.png> <./imagenes/dashboard_2.png>] (articulo_ieee.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
+[6 <./imagenes/7.jpg> <./imagenes/asistencia.jpg> <./imagenes/dashboard_1.png> <./imagenes/dashboard_2.png>] (./articulo_ieee.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\T1/cmr/m/n/10 com / es / reconocimiento-[]facial / # :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\T1/cmr/m/n/10 ~ : text = Los % 20sistemas % 20de %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\T1/cmr/m/n/10 20reconocimiento % 20facial %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\T1/cmr/m/n/10 20basados % 20en % 20Inteligencia %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\T1/cmr/m/n/10 20Arti^^\cial % 20permiten ,[] una %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+\T1/cmr/m/n/10 20precisi % C3 % B3n % 20mayor % 20al %
+ []
+
+
+
+
+
+
+
+[7]
+Underfull \hbox (badness 5064) in paragraph at lines 44--46
+\T1/cmr/m/n/10 Disponible: []$https : / / aws . amazon .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+\T1/cmr/m/n/10 com / es / what-[]is / facial-[]recognition / # :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+\T1/cmr/m/n/10 ~ : text = Funciona % 20mediante % 20la %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+\T1/cmr/m/n/10 20identi^^\caci % C3 % B3n % 20y ,[] gran %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
+\T1/cmr/m/n/10 20colecci % C3 % B3n % 20de % 20im %
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+[]$\T1/cmr/m/n/10 https : / / grsh . org / journal1 / index . php /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+[]$\T1/cmr/m/n/10 http : / / servicios . fpune . edu . py :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+[]$\T1/cmr/m/n/10 http : / / servicios . fpune . edu . py :
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 []$\T1/cmr/m/n/10 https : / / www . thalesgroup . com / es /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--30
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 \T1/cmr/m/n/10 countries / americas / latin-[]america / dis /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 \T1/cmr/m/n/10 https://beesafeohio.com/exploring-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 \T1/cmr/m/n/10 different-types-of-access-control-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
-\T1/cmr/m/n/10 ni-ble: []$https : / / beesafeohio . com /
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+\T1/cmr/m/n/10 credentials/. [en línea].
  []
 
 
-Overfull \hbox (66.31842pt too wide) in paragraph at lines 33--39
+Overfull \hbox (71.3172pt too wide) in paragraph at lines 79--81
 \T1/cmr/m/n/10 exploring-[]di^^[erent-[]types-[]of-[]access-[]control-[]credentials/$[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--46
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 \T1/cmr/m/n/10 latam . kaspersky . com / resource-[]center /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--60
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 \T1/cmr/m/n/10 mit . edu / books / monograph / 3132 /
  []
 
 
-Overfull \hbox (33.10394pt too wide) in paragraph at lines 55--60
+Overfull \hbox (38.10272pt too wide) in paragraph at lines 94--96
 \T1/cmr/m/n/10 PerceptronsAn-[]Introduction-[]to-[]Computational$[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+\T1/cmr/m/n/10 Disponible: []$https : / / repositorio .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+\T1/cmr/m/n/10 uam . es / bitstream / handle / 10486 /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+\T1/cmr/m/n/10 698387 / hernan _ urgel _ jorge _ tfg . pdf ?
  []
 
 )
@@ -719,29 +832,30 @@ Overfull \hbox (33.10394pt too wide) in paragraph at lines 55--60
 
 
 
-[6] (articulo_ieee.aux
+[8] (./articulo_ieee.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
 )
  ***********
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `articulo_ieee.out' has not changed.
 (rerunfilecheck)             Checksum: 0F8CA8BFBA53B289F4CC298FFA645ABC;1013.
  ) 
 Here is how much of TeX's memory you used:
- 14854 strings out of 468081
- 234601 string characters out of 5435855
- 686447 words of memory out of 5000000
- 43282 multiletter control sequences out of 15000+600000
- 644694 words of font info for 84 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,12n,79p,739b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on articulo_ieee.pdf (6 pages, 1409761 bytes).
+ 14595 strings out of 469781
+ 233561 string characters out of 5480955
+ 681575 words of memory out of 5000000
+ 42734 multiletter control sequences out of 15000+600000
+ 646355 words of font info for 88 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 75i,12n,79p,1086b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on articulo_ieee.pdf (8 pages, 1430148 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
+ 697 PDF objects out of 1000 (max. 8388607)
+ 250 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
