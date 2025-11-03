@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex articulo_ieee"] 1762059838.23663 "articulo_ieee.aux" "articulo_ieee.bbl" "articulo_ieee" 1762059840.53615 0
+["bibtex articulo_ieee"] 1762158117.95487 "articulo_ieee.aux" "articulo_ieee.bbl" "articulo_ieee" 1762158121.33837 0
   "./IEEEtran-castellano.bst" 1761399557 57755 52034c40cb16c88f0b11e1e831b3aaf2 ""
   "./test.bib" 1761433559 16493 762873bf27cd7565171051ba07b3830f ""
-  "articulo_ieee.aux" 1762059839 5201 4b8f5223876570b88bb26c532cfe78e6 "pdflatex"
+  "articulo_ieee.aux" 1762158120 5935 af8dc7b3c1955d1d12ca6f56ee10c561 "pdflatex"
   (generated)
   "articulo_ieee.bbl"
   "articulo_ieee.blg"
   (rewritten before read)
-["pdflatex"] 1762059838.51019 "c:/programacion/articulo_ieee/articulo_ieee/articulo_ieee.tex" "articulo_ieee.pdf" "articulo_ieee" 1762059840.53711 0
+["pdflatex"] 1762158118.44128 "c:/programacion/articulo_ieee/articulo_ieee/articulo_ieee.tex" "articulo_ieee.pdf" "articulo_ieee" 1762158121.33917 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbi1000.tfm" 993061906 2900 ce550da2a8b866861d2ce2b29bee03eb ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx0900.tfm" 993061954 3200 f959f56c26f697d341ba38dba18fe1f8 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/ecbx1000.tfm" 993061956 3200 328792ff19833a39406f06fa0555a6dc ""
@@ -124,11 +124,11 @@
   "C:/Users/aldoc/AppData/Roaming/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/aldoc/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/aldoc/AppData/Roaming/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
-  "articulo_ieee.aux" 1762059839 5201 4b8f5223876570b88bb26c532cfe78e6 "pdflatex"
-  "articulo_ieee.bbl" 1762059838 2832 b00f90817599110fabe820465e932271 "bibtex articulo_ieee"
-  "articulo_ieee.out" 1762059839 1013 0f8ca8bfba53b289f4cc298ffa645abc "pdflatex"
-  "articulo_ieee.tex" 1762059837 19660 41f068608d1171c290d5d1dcfed10223 ""
-  "c:/programacion/articulo_ieee/articulo_ieee/articulo_ieee.tex" 1762059837 19660 41f068608d1171c290d5d1dcfed10223 ""
+  "articulo_ieee.aux" 1762158120 5935 af8dc7b3c1955d1d12ca6f56ee10c561 "pdflatex"
+  "articulo_ieee.bbl" 1762158118 2832 b00f90817599110fabe820465e932271 "bibtex articulo_ieee"
+  "articulo_ieee.out" 1762158120 1013 0f8ca8bfba53b289f4cc298ffa645abc "pdflatex"
+  "articulo_ieee.tex" 1762158114 20209 52a0790fe6f9c47a1e0a4c3f9c818680 ""
+  "c:/programacion/articulo_ieee/articulo_ieee/articulo_ieee.tex" 1762158114 20209 52a0790fe6f9c47a1e0a4c3f9c818680 ""
   "ieeetrantools.sty" 1761432993 133318 5ffaa02717027674977a1459637ded39 ""
   "imagenes/1.jpg" 1761056513 93934 1af1e5bcb33c7e7ce382f1506ed71d74 ""
   "imagenes/2.jpg" 1761432993 197026 ea9cdce4eb1e5271ec94ffdcf170ef99 ""
@@ -136,6 +136,8 @@
   "imagenes/5.jpg" 1761432993 161257 a8d8586609b029c88f570840656955e7 ""
   "imagenes/7.jpg" 1761432993 175732 6457a186af9615f35e6d5421932b2caa ""
   "imagenes/asistencia.jpg" 1762059588 91853 f87d3923344d631c635a17c892be083a ""
+  "imagenes/dashboard_1.png" 1761083833 115358 b043cfc13eafb4e6fabf044d79ef6073 ""
+  "imagenes/dashboard_2.png" 1761083833 188089 c067646af66a53b43ceced2b63df69d1 ""
   (generated)
   "articulo_ieee.aux"
   "articulo_ieee.log"

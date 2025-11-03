@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.21)  2 NOV 2025 02:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.21)  3 NOV 2025 05:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,13 +650,23 @@ File: imagenes/asistencia.jpg Graphic file (type jpg)
 <use imagenes/asistencia.jpg>
 Package pdftex.def Info: imagenes/asistencia.jpg  used on input line 230.
 (pdftex.def)             Requested size: 187.78815pt x 149.66495pt.
+<imagenes/dashboard_1.png, id=106, 1154.51324pt x 683.55376pt>
+File: imagenes/dashboard_1.png Graphic file (type png)
+<use imagenes/dashboard_1.png>
+Package pdftex.def Info: imagenes/dashboard_1.png  used on input line 240.
+(pdftex.def)             Requested size: 187.78815pt x 111.17525pt.
+<imagenes/dashboard_2.png, id=108, 1153.30875pt x 687.16725pt>
+File: imagenes/dashboard_2.png Graphic file (type png)
+<use imagenes/dashboard_2.png>
+Package pdftex.def Info: imagenes/dashboard_2.png  used on input line 247.
+(pdftex.def)             Requested size: 187.78815pt x 111.88878pt.
 
 
 
 
 
 
-[5 <./imagenes/5.jpg> <./imagenes/7.jpg> <./imagenes/asistencia.jpg>] (articulo_ieee.bbl
+[5 <./imagenes/5.jpg> <./imagenes/7.jpg> <./imagenes/asistencia.jpg> <./imagenes/dashboard_1.png> <./imagenes/dashboard_2.png>] (articulo_ieee.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 27--30
 []$\T1/cmr/m/n/10 https : / / www . thalesgroup . com / es /
  []
@@ -721,17 +731,17 @@ Package rerunfilecheck Info: File `articulo_ieee.out' has not changed.
 (rerunfilecheck)             Checksum: 0F8CA8BFBA53B289F4CC298FFA645ABC;1013.
  ) 
 Here is how much of TeX's memory you used:
- 14836 strings out of 468081
- 234102 string characters out of 5435855
- 678196 words of memory out of 5000000
- 43266 multiletter control sequences out of 15000+600000
+ 14854 strings out of 468081
+ 234601 string characters out of 5435855
+ 686447 words of memory out of 5000000
+ 43282 multiletter control sequences out of 15000+600000
  644694 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,739b,651s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0600.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\aldoc\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on articulo_ieee.pdf (6 pages, 1126473 bytes).
+Output written on articulo_ieee.pdf (6 pages, 1409761 bytes).
 PDF statistics:
- 511 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 519 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
