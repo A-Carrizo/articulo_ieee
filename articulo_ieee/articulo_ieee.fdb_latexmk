@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex articulo_ieee"] 1762191066.01441 "articulo_ieee.aux" "articulo_ieee.bbl" "articulo_ieee" 1762191796.22834 0
+["bibtex articulo_ieee"] 1762191066.01441 "articulo_ieee.aux" "articulo_ieee.bbl" "articulo_ieee" 1762364564.48205 0
   "./IEEEtran-castellano.bst" 1761414637.65961 57755 52034c40cb16c88f0b11e1e831b3aaf2 ""
   "./test.bib" 1762187932.53385 16493 762873bf27cd7565171051ba07b3830f ""
-  "articulo_ieee.aux" 1762191796.14013 6732 ecf655d663937d054752e566a36686ef "pdflatex"
+  "articulo_ieee.aux" 1762364564.39178 6732 ecf655d663937d054752e566a36686ef "pdflatex"
   (generated)
   "articulo_ieee.bbl"
   "articulo_ieee.blg"
   (rewritten before read)
-["pdflatex"] 1762191795.43378 "/Users/danisanchez/Documents/portafolio/articulo_ieee_ALDO/articulo_ieee/articulo_ieee.tex" "articulo_ieee.pdf" "articulo_ieee" 1762191796.22846 0
-  "/Users/danisanchez/Documents/portafolio/articulo_ieee_ALDO/articulo_ieee/articulo_ieee.tex" 1762191795.18656 25547 0d31186f3e3ff34c16a813651a54587e ""
+["pdflatex"] 1762364563.69389 "/Users/danisanchez/Documents/portafolio/articulo_ieee_ALDO/articulo_ieee/articulo_ieee.tex" "articulo_ieee.pdf" "articulo_ieee" 1762364564.48217 0
+  "/Users/danisanchez/Documents/portafolio/articulo_ieee_ALDO/articulo_ieee/articulo_ieee.tex" 1762364563.41574 25531 191fdc3c8df5691693314e2a5b7441a4 ""
   "/Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecbi1000.tfm" 1136768653 3072 e6fe53b666f9cbd66cb135c6fdea66d3 ""
   "/Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
   "/Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -132,10 +132,10 @@
   "/Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk" 1762180058.7328 10448 c7f9823eb59ac3f5044b16b756846393 ""
   "/Users/danisanchez/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1756557142 2203729 7c50e3d1150916eb2cd6f9ac36be135b ""
   "/Users/danisanchez/Library/TinyTeX/texmf.cnf" 1756557060.3955 637 edd806fb06a89761a6034e1968af9017 ""
-  "articulo_ieee.aux" 1762191796.14013 6732 ecf655d663937d054752e566a36686ef "pdflatex"
+  "articulo_ieee.aux" 1762364564.39178 6732 ecf655d663937d054752e566a36686ef "pdflatex"
   "articulo_ieee.bbl" 1762191066.03178 6831 a5b4d53923471f033a016e7b58e86d70 "bibtex articulo_ieee"
-  "articulo_ieee.out" 1762191796.14166 1013 0f8ca8bfba53b289f4cc298ffa645abc "pdflatex"
-  "articulo_ieee.tex" 1762191795.18656 25547 0d31186f3e3ff34c16a813651a54587e ""
+  "articulo_ieee.out" 1762364564.39337 1013 0f8ca8bfba53b289f4cc298ffa645abc "pdflatex"
+  "articulo_ieee.tex" 1762364563.41574 25531 191fdc3c8df5691693314e2a5b7441a4 ""
   "ieeetrantools.sty" 1761415327.73343 130520 5ffaa02717027674977a1459637ded39 ""
   "imagenes/1.jpg" 1761414637.66323 93934 11b840bd4cb429b5343e413071a5d942 ""
   "imagenes/2.jpg" 1761417130.53892 197026 9f8704bc529401e34248e6785ca97191 ""
