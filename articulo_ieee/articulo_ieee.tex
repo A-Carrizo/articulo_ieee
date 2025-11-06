@@ -38,19 +38,16 @@ Aldo Carrizo Coronel\textsuperscript{1},\; Jorge Daniel Sánchez Ramírez\textsu
 
 \vspace*{-1cm}
 
-
-
-
 \begin{center}
 \parbox{14 cm}{\abstract{
     
-Este estudio desarrolló y evaluó un prototipo de sistema automatizado de registro de asistencia mediante reconocimiento facial biométrico en la Facultad Politécnica de la Universidad Nacional del Este (FPUNE), Paraguay. El método manual actual consume entre 5 y 7 minutos por sesión y presenta tasas de error del 15–20\,\% debido a registros ilegibles y omisiones.
+Se presenta el desarrollo y la evaluación experimental de un prototipo de sistema automatizado de registro de asistencia mediante reconocimiento facial biométrico en la Facultad Politécnica de la Universidad Nacional del Este (FPUNE), Paraguay. El método manual actual consume entre 5 y 7 minutos por sesión y presenta tasas de error del 15–20\% debido a registros ilegibles y omisiones.
 
-Mediante un diseño experimental con \textit{N}=13 estudiantes durante 8 semanas (septiembre–octubre de 2025), se implementó un sistema de dos etapas: (1) detección facial con \textit{YOLOv8n-Face} y (2) identificación mediante embeddings \textit{ArcFace}. Se recopilaron 65 imágenes por estudiante bajo condiciones variables de iluminación (300–500\,lux) y distancia (1–5\,m), evaluadas en 24 sesiones lectivas reales (M=1\,080 registros).
+Mediante un diseño experimental con \textit{N}=13 estudiantes durante 8 semanas, se implementó un sistema de dos etapas: (1) detección facial con \textit{YOLOv8n-Face} y (2) identificación mediante embeddings \textit{ArcFace}. Se recopilaron 65 imágenes por estudiante bajo condiciones variables de iluminación (300–500\,lux) y distancia (1–5\,m), evaluadas en 24 sesiones lectivas reales (M=1\,080 registros).
 
-El sistema alcanzó una precisión promedio del 84.4\,\% (IC 95\,\%: 81.2–87.6), con un máximo de 100\,\% bajo iluminación óptima y un mínimo de 71.4\,\% en condiciones de baja luz, con tiempos de procesamiento de 288±23\,ms por rostro. La implementación redujo el tiempo de registro en un 73\,\% (de 5\,min → 1,35\,min) y eliminó los errores de transcripción manual, aunque el rendimiento depende críticamente de la iluminación. 
+Los resultados mostraton una precisión promedio del 84\% destacando la iluminación como factor determinante en el rendimiento, con tiempos de procesamiento de 288±23\,ms por rostro. La implementación redujo el tiempo de registro en un 73\,\% (de 5\,min a 1,35\,min) y eliminó los errores de transcripción manual, aunque el rendimiento depende críticamente de la iluminación. 
 
-Los resultados validan la viabilidad técnica y económica de sistemas biométricos no invasivos para la gestión académica en instituciones con recursos limitados, identificando la iluminación como factor clave para futuras optimizaciones.
+Los resultados validan la viabilidad técnica y económica del sistema propuesto y demuestran su potencial para mejorar la gestión académica y administrativa en instituciones educativas.
 
 \vspace*{0.1cm}
 \textbf{Descriptores:} \textbf{Reconocimiento facial, biometría, aprendizaje profundo, asistencia automatizada, visión por computadora, gestión académica.}
@@ -59,13 +56,14 @@ Los resultados validan la viabilidad técnica y económica de sistemas biométri
 \textbf{Abstract}
 \end{center}
 
-This study developed and evaluated a prototype of an automated attendance registration system based on biometric facial recognition at the Polytechnic Faculty of the National University of the East (FPUNE), Paraguay. The current manual method takes 5–7 minutes per session and exhibits error rates of 15–20\% due to illegible or missing entries.
+This work presents the development and experimental evaluation of a prototype automated attendance registration system using biometric facial recognition at the Polytechnic Faculty of the National University of the East (FPUNE), Paraguay. The current manual method requires between 5 and 7 minutes per session and shows error rates of 15-20\% due to illegible records and omissions.
 
-An experimental design with \textit{N}=13 students was conducted over 8 weeks (September–October 2025), implementing a two-stage system: (1) face detection using \textit{YOLOv8n-Face} and (2) identification via \textit{ArcFace} embeddings. A dataset of 65 images per student was collected under varying lighting conditions (300–500 lux) and distances (1–5 m), evaluated across 24 real classroom sessions (M=1,080 records).
+Through an experimental design with \textit{N}=13 students over 8 weeks, a two-stage system was implemented: (1) facial detection using \textit{YOLOv8n-Face} and (2) identification through \textit{ArcFace} embeddings. A total of 65 images per student were collected under varying lighting conditions (300-500\,lux) and distance (1-5\,m), evaluated across 24 real class sessions (M=1,080 records).
 
-The system achieved an average accuracy of 84.4\% (95\% CI: 81.2–87.6), reaching 100\% under optimal lighting and 71.4\% under low-light conditions, with processing times of 288±23 ms per face. Implementation reduced attendance time by 73\% (5\,min → 1,35\,min) and eliminated transcription errors, although performance remains sensitive to lighting conditions.
+The results showed an average accuracy of 84\%, highlighting lighting as a key factor affecting performance, with processing times of 288$\pm$23\,ms per face. The implementation reduced registration time by 73\% (from 5\,min to 1.35\,min) and eliminated manual transcription errors, although performance remains highly dependent on lighting conditions.
 
-These findings validate the technical and economic feasibility of non-invasive biometric systems for academic management in resource-constrained institutions, highlighting lighting as a key factor for future optimization.
+The findings validate the technical and economic feasibility of the proposed system and demonstrate its potential to improve academic and administrative management in educational institutions.
+
 
 \vspace*{0.1cm}
 \textbf{Keywords:} \textbf{Facial recognition, biometrics, deep learning, automated attendance, computer vision, academic management.}
@@ -205,9 +203,6 @@ Se observa una segunda captura tomada en el mismo entorno, manteniendo las condi
 \caption{Segunda prueba con iluminación uniforme, evidenciando estabilidad en las detecciones. [Figura Propia]}
 \label{fig:deteccion_aula_2}
 \end{figure}
-\vspace{.3cm}
-
-
 
 En la Figura~\ref{fig:prueba3} se presenta una prueba en la que los participantes modificaron levemente su postura y expresión facial respecto a las capturas anteriores. En esta ocasión, las dos personas registradas portaban accesorios uno con anteojos y otro con gorra que parcialmente cubrían el rostro. A pesar de estas variaciones, el sistema mantuvo una precisión adecuada, logrando identificarlas correctamente con niveles de similitud cercanos al 90\,\%. Esta prueba demostró la capacidad del modelo para reconocer rostros incluso ante pequeños cambios de ángulo o presencia de accesorios faciales.
 
@@ -220,12 +215,14 @@ En la Figura~\ref{fig:prueba3} se presenta una prueba en la que los participante
 
 En la Figura~\ref{fig:prueba4} se presenta una prueba en la que la cámara fue ubicada a una distancia superior a los cinco metros de los participantes. Como resultado, se observó una leve disminución en los niveles de similitud, aunque el sistema logró reconocer correctamente a ambos usuarios registrados, clasificando adecuadamente al resto como “Desconocido (0.0\,\%)”. Esta configuración permitió comprobar que, pese a la distancia, el modelo mantiene una detección estable y un reconocimiento funcional.
 
-\begin{figure}[H]
+\begin{center}
+\begin{minipage}{\linewidth}
 \centering
 \includegraphics[width=\linewidth]{imagenes/5.jpg}
-\caption{Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento. [Figura Propia]}
+\captionof{figure}{Prueba con variaciones leves de postura y uso de accesorios, manteniendo altos niveles de reconocimiento. [Figura Propia]}
 \label{fig:prueba4}
-\end{figure}
+\end{minipage}
+\end{center}
 
 
 En la Figura~\ref{fig:prueba6} se presenta la prueba realizada bajo las condiciones de iluminación más bajas posibles dentro del aula. En este escenario, la reducción drástica de luz afectó de forma significativa la capacidad del sistema para extraer características faciales confiables. Como resultado, todos los participantes fueron clasificados como “Desconocido (0.0\,\%)”, evidenciando la dependencia del modelo respecto a una iluminación adecuada para lograr un reconocimiento efectivo.

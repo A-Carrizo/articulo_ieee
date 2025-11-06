@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  5 NOV 2025 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.8.30)  6 NOV 2025 15:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -553,26 +553,21 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
  (/Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 1264) in paragraph at lines 72--72
-\T1/cmr/m/n/9 ber^^UOctober 2025), im-ple-ment-ing a two-stage sys-tem: (1) face de-tec-tion us-ing
- []
-
-
 
 [1
 
 {/Users/danisanchez/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 5316) in paragraph at lines 102--103
+Underfull \hbox (badness 5316) in paragraph at lines 100--101
 []\T1/cmr/m/n/10 Seleccionar los al-go-rit-mos de re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 []\T1/cmr/m/n/10 Desarrollar el sis-tema de re-
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 112--112
+Underfull \hbox (badness 7064) in paragraph at lines 110--110
 []\T1/cmr/bx/n/12 Discusión de lit-er-atu-ra
  []
 
@@ -583,12 +578,12 @@ Underfull \hbox (badness 7064) in paragraph at lines 112--112
 
 
 [2]
-Underfull \hbox (badness 6927) in paragraph at lines 133--134
+Underfull \hbox (badness 6927) in paragraph at lines 131--132
 \T1/cmr/m/n/10 in-ves-ti-gación ex-per-i-men-tal. El pro-ce-so
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 []\T1/cmr/bx/n/10 Evaluación ex-per-i-men-tal: \T1/cmr/m/n/10 val-i-
  []
 
@@ -599,37 +594,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
 []\T1/cmr/bx/n/10 Variables con-fu-so-ras: \T1/cmr/m/n/10 uso
  []
 
-<imagenes/1.jpg, id=110, 1284.8pt x 729.72626pt>
+<imagenes/1.jpg, id=111, 1284.8pt x 729.72626pt>
 File: imagenes/1.jpg Graphic file (type jpg)
 <use imagenes/1.jpg>
-Package pdftex.def Info: imagenes/1.jpg  used on input line 174.
+Package pdftex.def Info: imagenes/1.jpg  used on input line 172.
 (pdftex.def)             Requested size: 187.78815pt x 106.64827pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 []|\T1/cmr/bx/n/10 Precisión
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 []|\T1/cmr/bx/n/10 Tiempo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--191
+Underfull \hbox (badness 10000) in paragraph at lines 189--189
 []|\T1/cmr/m/n/10 Luz ar-ti-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 192--192
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
 []|\T1/cmr/m/n/10 Iluminación
  []
 
 
-Overfull \hbox (6.30197pt too wide) in paragraph at lines 186--197
+Overfull \hbox (6.30197pt too wide) in paragraph at lines 184--195
  [][] 
  []
 
@@ -640,30 +635,36 @@ Overfull \hbox (6.30197pt too wide) in paragraph at lines 186--197
 
 
 [4 <./imagenes/1.jpg>]
-<imagenes/2.jpg, id=118, 1606.0pt x 951.555pt>
+<imagenes/2.jpg, id=119, 1606.0pt x 951.555pt>
 File: imagenes/2.jpg Graphic file (type jpg)
 <use imagenes/2.jpg>
-Package pdftex.def Info: imagenes/2.jpg  used on input line 204.
+Package pdftex.def Info: imagenes/2.jpg  used on input line 202.
 (pdftex.def)             Requested size: 187.78815pt x 111.26324pt.
-<imagenes/4.jpg, id=120, 1185.67969pt x 707.64375pt>
+<imagenes/4.jpg, id=121, 1185.67969pt x 707.64375pt>
 File: imagenes/4.jpg Graphic file (type jpg)
 <use imagenes/4.jpg>
-Package pdftex.def Info: imagenes/4.jpg  used on input line 216.
+Package pdftex.def Info: imagenes/4.jpg  used on input line 211.
 (pdftex.def)             Requested size: 187.78815pt x 112.06995pt.
-<imagenes/5.jpg, id=122, 1606.0pt x 889.3225pt>
+<imagenes/5.jpg, id=123, 1606.0pt x 889.3225pt>
 File: imagenes/5.jpg Graphic file (type jpg)
 <use imagenes/5.jpg>
-Package pdftex.def Info: imagenes/5.jpg  used on input line 225.
+Package pdftex.def Info: imagenes/5.jpg  used on input line 221.
 (pdftex.def)             Requested size: 187.78815pt x 103.98653pt.
-<imagenes/7.jpg, id=124, 1606.0pt x 990.70125pt>
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 222.
+See the caption package documentation for explanation.
+
+<imagenes/7.jpg, id=125, 1606.0pt x 990.70125pt>
 File: imagenes/7.jpg Graphic file (type jpg)
 <use imagenes/7.jpg>
-Package pdftex.def Info: imagenes/7.jpg  used on input line 235.
+Package pdftex.def Info: imagenes/7.jpg  used on input line 232.
 (pdftex.def)             Requested size: 187.78815pt x 115.84053pt.
-<imagenes/asistencia.jpg, id=125, 400.49625pt x 319.1925pt>
+<imagenes/asistencia.jpg, id=126, 400.49625pt x 319.1925pt>
 File: imagenes/asistencia.jpg Graphic file (type jpg)
 <use imagenes/asistencia.jpg>
-Package pdftex.def Info: imagenes/asistencia.jpg  used on input line 243.
+Package pdftex.def Info: imagenes/asistencia.jpg  used on input line 240.
 (pdftex.def)             Requested size: 187.78815pt x 149.66495pt.
 
 
@@ -671,16 +672,16 @@ Package pdftex.def Info: imagenes/asistencia.jpg  used on input line 243.
 
 
 
-[5 <./imagenes/2.jpg> <./imagenes/4.jpg> <./imagenes/5.jpg>]
-<imagenes/dashboard_1.png, id=134, 1154.51324pt x 683.55376pt>
+[5 <./imagenes/2.jpg> <./imagenes/4.jpg> <./imagenes/5.jpg> <./imagenes/7.jpg>]
+<imagenes/dashboard_1.png, id=135, 1154.51324pt x 683.55376pt>
 File: imagenes/dashboard_1.png Graphic file (type png)
 <use imagenes/dashboard_1.png>
-Package pdftex.def Info: imagenes/dashboard_1.png  used on input line 253.
+Package pdftex.def Info: imagenes/dashboard_1.png  used on input line 250.
 (pdftex.def)             Requested size: 187.78815pt x 111.17525pt.
-<imagenes/dashboard_2.png, id=136, 1153.30875pt x 687.16725pt>
+<imagenes/dashboard_2.png, id=137, 1153.30875pt x 687.16725pt>
 File: imagenes/dashboard_2.png Graphic file (type png)
 <use imagenes/dashboard_2.png>
-Package pdftex.def Info: imagenes/dashboard_2.png  used on input line 260.
+Package pdftex.def Info: imagenes/dashboard_2.png  used on input line 257.
 (pdftex.def)             Requested size: 187.78815pt x 111.88878pt.
 
 
@@ -688,7 +689,7 @@ Package pdftex.def Info: imagenes/dashboard_2.png  used on input line 260.
 
 
 
-[6 <./imagenes/7.jpg> <./imagenes/asistencia.jpg> <./imagenes/dashboard_1.png> <./imagenes/dashboard_2.png>] (./articulo_ieee.bbl
+[6 <./imagenes/asistencia.jpg> <./imagenes/dashboard_1.png> <./imagenes/dashboard_2.png>] (./articulo_ieee.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 39--41
 \T1/cmr/m/n/10 com / es / reconocimiento-[]facial / # :
  []
@@ -719,12 +720,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--41
  []
 
 
-
-
-
-
-
-[7]
 Underfull \hbox (badness 5064) in paragraph at lines 44--46
 \T1/cmr/m/n/10 Disponible: []$https : / / aws . amazon .
  []
@@ -750,6 +745,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--46
  []
 
 
+
+
+
+
+
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 54--56
 []$\T1/cmr/m/n/10 https : / / grsh . org / journal1 / index . php /
  []
@@ -776,37 +777,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--81
-\T1/cmr/m/n/10 https://beesafeohio.com/exploring-
+\T1/cmr/m/n/10 https://beesafeohio.com/exploring.
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 79--81
-\T1/cmr/m/n/10 different-types-of-access-control-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
-\T1/cmr/m/n/10 credentials/. [en línea].
- []
-
-
-Overfull \hbox (71.3172pt too wide) in paragraph at lines 79--81
-\T1/cmr/m/n/10 exploring-[]di^^[erent-[]types-[]of-[]access-[]control-[]credentials/$[] 
+\T1/cmr/m/n/10 [en línea]. Disponible:
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
 \T1/cmr/m/n/10 latam . kaspersky . com / resource-[]center /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
-\T1/cmr/m/n/10 mit . edu / books / monograph / 3132 /
- []
-
-
-Overfull \hbox (38.10272pt too wide) in paragraph at lines 94--96
-\T1/cmr/m/n/10 PerceptronsAn-[]Introduction-[]to-[]Computational$[] 
  []
 
 
@@ -844,18 +825,18 @@ Package rerunfilecheck Info: File `articulo_ieee.out' has not changed.
 (rerunfilecheck)             Checksum: 0F8CA8BFBA53B289F4CC298FFA645ABC;1013.
  ) 
 Here is how much of TeX's memory you used:
- 14591 strings out of 469781
- 233510 string characters out of 5480955
- 681575 words of memory out of 5000000
- 42730 multiletter control sequences out of 15000+600000
+ 14592 strings out of 469781
+ 233544 string characters out of 5480955
+ 676567 words of memory out of 5000000
+ 42731 multiletter control sequences out of 15000+600000
  646355 words of font info for 88 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,79p,1086b,800s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on articulo_ieee.pdf (8 pages, 1429853 bytes).
+ 75i,12n,79p,1086b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk> </Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on articulo_ieee.pdf (8 pages, 1436654 bytes).
 PDF statistics:
  696 PDF objects out of 1000 (max. 8388607)
- 250 compressed objects within 3 object streams
+ 251 compressed objects within 3 object streams
  58 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
