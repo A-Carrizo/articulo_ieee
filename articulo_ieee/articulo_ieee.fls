@@ -1,272 +1,309 @@
-PWD /Users/danisanchez/Documents/portafolio/articulo_ieee_ALDO/articulo_ieee
-INPUT /Users/danisanchez/Library/TinyTeX/texmf.cnf
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/web2c/texmf.cnf
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/danisanchez/Documents/portafolio/articulo_ieee_ALDO/articulo_ieee/articulo_ieee.tex
+PWD c:\programacion\articulo_ieee\articulo_ieee
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\programacion\articulo_ieee\articulo_ieee\articulo_ieee.tex
 OUTPUT articulo_ieee.log
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/size10.clo
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-spanish.tex
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/es/babel-es.ini
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amscls/amsthm.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/float/float.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/cite/cite.sty
-INPUT ./ieeetrantools.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\babel-spanish\spanish.ldf
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-spanish.tex
+INPUT C:\Program Files\MiKTeX\tex\generic\babel\locale\es\babel-es.ini
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\caption\caption.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\caption\caption3.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\amscls\amsthm.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-def\pdftex.def
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\color.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\cite\cite.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\cite\cite.sty
+INPUT .\ieeetrantools.sty
 INPUT ieeetrantools.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-INPUT ./articulo_ieee.aux
-INPUT ./articulo_ieee.aux
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\ifvtex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hpdftex.def
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\aldoc\AppData\Roaming\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\articulo_ieee.aux
+INPUT .\articulo_ieee.aux
 INPUT articulo_ieee.aux
 OUTPUT articulo_ieee.aux
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-INPUT ./articulo_ieee.out
-INPUT ./articulo_ieee.out
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT .\articulo_ieee.out
+INPUT .\articulo_ieee.out
 INPUT articulo_ieee.out
 INPUT articulo_ieee.out
 OUTPUT articulo_ieee.pdf
-INPUT ./articulo_ieee.out
-INPUT ./articulo_ieee.out
+INPUT .\articulo_ieee.out
+INPUT .\articulo_ieee.out
 OUTPUT articulo_ieee.out
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecti0900.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
-INPUT ./imagenes/1.jpg
-INPUT ./imagenes/1.jpg
-INPUT ./imagenes/1.jpg
-INPUT ./imagenes/1.jpg
-INPUT ./imagenes/1.jpg
-INPUT ./imagenes/2.jpg
-INPUT ./imagenes/2.jpg
-INPUT ./imagenes/2.jpg
-INPUT ./imagenes/2.jpg
-INPUT ./imagenes/2.jpg
-INPUT ./imagenes/4.jpg
-INPUT ./imagenes/4.jpg
-INPUT ./imagenes/4.jpg
-INPUT ./imagenes/4.jpg
-INPUT ./imagenes/4.jpg
-INPUT ./imagenes/5.jpg
-INPUT ./imagenes/5.jpg
-INPUT ./imagenes/5.jpg
-INPUT ./imagenes/5.jpg
-INPUT ./imagenes/5.jpg
-INPUT ./imagenes/7.jpg
-INPUT ./imagenes/7.jpg
-INPUT ./imagenes/7.jpg
-INPUT ./imagenes/7.jpg
-INPUT ./imagenes/7.jpg
-INPUT ./imagenes/asistencia.jpg
-INPUT ./imagenes/asistencia.jpg
-INPUT ./imagenes/asistencia.jpg
-INPUT ./imagenes/asistencia.jpg
-INPUT ./imagenes/asistencia.jpg
-INPUT ./imagenes/dashboard_1.png
-INPUT ./imagenes/dashboard_1.png
-INPUT ./imagenes/dashboard_1.png
-INPUT ./imagenes/dashboard_1.png
-INPUT ./imagenes/dashboard_1.png
-INPUT ./imagenes/dashboard_2.png
-INPUT ./imagenes/dashboard_2.png
-INPUT ./imagenes/dashboard_2.png
-INPUT ./imagenes/dashboard_2.png
-INPUT ./imagenes/dashboard_2.png
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-INPUT ./articulo_ieee.bbl
-INPUT ./articulo_ieee.bbl
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0900.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx0900.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecti0900.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm0900.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
+INPUT .\imagenes\1.jpg
+INPUT .\imagenes\1.jpg
+INPUT .\imagenes\1.jpg
+INPUT .\imagenes\1.jpg
+INPUT .\imagenes\1.jpg
+INPUT .\imagenes\1.jpg
+INPUT .\imagenes\1.jpg
+INPUT .\imagenes\2.jpg
+INPUT .\imagenes\2.jpg
+INPUT .\imagenes\2.jpg
+INPUT .\imagenes\2.jpg
+INPUT .\imagenes\2.jpg
+INPUT .\imagenes\2.jpg
+INPUT .\imagenes\2.jpg
+INPUT .\imagenes\4.jpg
+INPUT .\imagenes\4.jpg
+INPUT .\imagenes\4.jpg
+INPUT .\imagenes\4.jpg
+INPUT .\imagenes\4.jpg
+INPUT .\imagenes\4.jpg
+INPUT .\imagenes\4.jpg
+INPUT .\imagenes\5.jpg
+INPUT .\imagenes\5.jpg
+INPUT .\imagenes\5.jpg
+INPUT .\imagenes\5.jpg
+INPUT .\imagenes\5.jpg
+INPUT .\imagenes\5.jpg
+INPUT .\imagenes\5.jpg
+INPUT .\imagenes\7.jpg
+INPUT .\imagenes\7.jpg
+INPUT .\imagenes\7.jpg
+INPUT .\imagenes\7.jpg
+INPUT .\imagenes\7.jpg
+INPUT .\imagenes\7.jpg
+INPUT .\imagenes\7.jpg
+INPUT .\imagenes\asistencia.jpg
+INPUT .\imagenes\asistencia.jpg
+INPUT .\imagenes\asistencia.jpg
+INPUT .\imagenes\asistencia.jpg
+INPUT .\imagenes\asistencia.jpg
+INPUT .\imagenes\asistencia.jpg
+INPUT .\imagenes\asistencia.jpg
+INPUT .\imagenes\dashboard_1.png
+INPUT .\imagenes\dashboard_1.png
+INPUT .\imagenes\dashboard_1.png
+INPUT .\imagenes\dashboard_1.png
+INPUT .\imagenes\dashboard_1.png
+INPUT .\imagenes\dashboard_1.png
+INPUT .\imagenes\dashboard_1.png
+INPUT .\imagenes\dashboard_2.png
+INPUT .\imagenes\dashboard_2.png
+INPUT .\imagenes\dashboard_2.png
+INPUT .\imagenes\dashboard_2.png
+INPUT .\imagenes\dashboard_2.png
+INPUT .\imagenes\dashboard_2.png
+INPUT .\imagenes\dashboard_2.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0500.tfm
+INPUT .\articulo_ieee.bbl
+INPUT .\articulo_ieee.bbl
 INPUT articulo_ieee.bbl
 INPUT articulo_ieee.aux
-INPUT ./articulo_ieee.out
-INPUT ./articulo_ieee.out
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1200.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1000.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0900.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx0900.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0600.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0900.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /Users/danisanchez/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+INPUT .\articulo_ieee.out
+INPUT .\articulo_ieee.out
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1000.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1000.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0900.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti0900.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0900.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
+INPUT C:\Users\aldoc\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1728.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
